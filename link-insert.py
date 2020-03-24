@@ -8,7 +8,9 @@ new_leaflet_filename = f"{filename_prefix}-leaflet.html"
 
 leaflet_html = open(new_leaflet_filename, "x")
 
-for delimiter in leaflet_html()
+template = open("")
+
+for delimiter in leaflet_html(leaflet.replace())
 
 
 # new_links = open("link-list.html", "r")

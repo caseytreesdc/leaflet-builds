@@ -1,22 +1,23 @@
 import sys
 
-NVP_20200324 = {
-    'preheader': 'trees are growing',
-    'article-1__link': 'https://caseytrees.org/',
-    'article-1__image': 'https://caseytrees.org/wp-content/uploads/2020/03/Cherry-March-Madness-Bracket_Leaflet-Preview-2.png',
-    'article-1__heading': 'This is the Article 1 Heading',
-    'article-1__description': 'This is the Article 1 Description',
-    'article-2__link': 'https://caseytrees.org/',
-    'article-2__image': 'https://caseytrees.org/wp-content/uploads/2020/03/Cherry-March-Madness-Bracket_Leaflet-Preview-2.png',
-    'article-2__heading': 'This is the Article 2 Heading',
-    'article-2__description': 'This is the Article 2 Description',
-    'article-3__link': 'https://caseytrees.org/',
-    'article-3__image': 'https://caseytrees.org/wp-content/uploads/2020/03/Cherry-March-Madness-Bracket_Leaflet-Preview-2.png',
-    'article-3__heading': 'This is the Article 3 Heading',
-    'article-3__description': 'This is the Article 3 Description'
+
+NVP_20200327 = {
+    'preheader': 'plus, #blossombracket semifinals and always be sure to look for the helpers',
+    'article-1__link': 'https://caseytrees.org/2020/03/semi-finals-of-our-blossom-bracket/?utm_source=leaflet&utm_medium=email&utm_campaign=spring',
+    'article-1__image': 'https://caseytrees.org/wp-content/uploads/2020/03/march-cancelled-covid-email-1.jpg',
+    'article-1__heading': 'Semi-Finals of our Blossom Bracket',
+    'article-1__description': 'The first contest is a doozy.',
+    'article-2__link': 'https://caseytrees.org/2020/03/get-up-and-get-out-of-your-house-and-your-head/?utm_source=leaflet&utm_medium=email&utm_campaign=random',
+    'article-2__image': 'https://caseytrees.org/wp-content/uploads/2020/03/get-outside-email.jpg',
+    'article-2__heading': 'Get Up and Get Out (of Your House and Your Head!)',
+    'article-2__description': 'Spending time is nature can improve mental health, something practically all of us need these days.',
+    'article-3__link': 'https://caseytrees.org/2020/03/look-for-the-helpers/?utm_source=leaflet&utm_medium=email&utm_campaign=programming',
+    'article-3__image': 'https://caseytrees.org/wp-content/uploads/2020/03/helpers-email.png',
+    'article-3__heading': 'Look for the Helpers',
+    'article-3__description': 'A lot is uncertain these days, but there is a lot that is certain, including the power of those doing good'
 }
 
-NVP = NVP_20200324
+NVP = NVP_20200327
 #
 
 

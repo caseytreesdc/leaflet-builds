@@ -2,14 +2,14 @@
 
 ## Installation
 
-### Open Terminal
+Clone this repo.
 
+## Generating a new HTML file with inserted links
 
-## Generating a new 
+1. In this directory, run 
+```
+python3 streamreader.py <2019-delimited.html >new.html
+```
 
-1. In this directory, run python3 streamreader.py <2019-delimited.html >new.html
-
-
-this will generate new.html
-paste the text of this into pardot
+2. this will generate new.html paste the text of this into pardot
 

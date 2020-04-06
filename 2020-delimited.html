@@ -83,6 +83,10 @@
     </style>
   </head>
   <body>
+    <!-- // preheader email text \\ -->
+    <div style="display: none; max-height: 0px; overflow: hidden;">%%preheader%%
+      &nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;
+    </div>
     <!-- // Begin Module: Outer most table of body \\ -->
     <table
       class="enclosing-table"
@@ -164,7 +168,7 @@
                 >
                   <tr align="center">
                     <td align="center" width="50%">
-                      <a href="%%article-1__link">
+                      <a href="%%article-1__link%%">
                         <img
                           class="img__browser"
                           src="%%article-1__image-browser%%"
@@ -281,15 +285,15 @@
                 >
                   <tr>
                     <td width="50%" align="center">
-                      <a href="%%article-2__link">
+                      <a href="%%article-2__link%%">
                         <img
                           class="img__browser"
-                          src="article-2__image-browser%%"
+                          src="%%article-2__image-browser%%"
                           style="display:block; border-radius: 25% 0 25% 0;"
                           alt="%%article-2__alt-text%%"
                         />
                         <div class="img__responsive" style="display:none;">
-                          <img src="article-2__image-browser%%" style="border-radius: 25% 0 25% 0;" alt="%%article-2__alt-text%%"/>
+                          <img src="%%article-2__image-mobile%%" style="border-radius: 25% 0 25% 0;" alt="%%article-2__alt-text%%"/>
                         </div>
                       </a>
                     </td>
@@ -311,7 +315,7 @@
                               class="article-2__subtitle"
                               style="color:rgb(80, 80, 80); font-family: Lato, Helvetica, Arial, sans-serif; font-size: 16px; line-height: 1.1;"
                             >
-                            %%article-description%%
+                            %%article-2__description%%
                             </p>
                           </td>
                         </tr>
@@ -343,7 +347,7 @@
                           alt="%%article-3__alt-text%%"
                         />
                         <div class="img__responsive" style="display:none;">
-                          <img src="%%article-3__image-browser%%" style="border-radius: 25% 0 25% 0;" alt="%%article-3__alt-text%%"/>
+                          <img src="%%article-3__image-mobile%%" style="border-radius: 25% 0 25% 0;" alt="%%article-3__alt-text%%"/>
                         </div>
                       </a>
                     </td>

@@ -1,410 +1,506 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-
-<head>
-    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
-    <!-- Facebook sharing information tags -->
-    <meta property="og:title" content="%%subject%%" />
-
-    <title>%%subject%%</title>
-</head>
-
-<body bgcolor="#F6f6f6" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; height: 100% !important; width: 100% !important; background-color: #F6f6f6; margin: 0; padding: 0;">
-<style type="text/css">#outlook a {
-            padding: 0;
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>The Leaflet 2020</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <style type="text/css">
+      /* CLIENT-SPECIFIC STYLES */
+      body,
+      table,
+      td,
+      a {
+        -ms-text-size-adjust: 100%;
+      } /* Prevent WebKit and Windows mobile changing default text sizes */
+      table,
+      td {
+        mso-table-lspace: 0pt;
+        mso-table-rspace: 0pt;
+      } /* Remove spacing between tables in Outlook 2007 and up */
+      @media screen and (max-width: 525px) {
+        html {
+          width: 100vw !important;
         }
-
-        .body {
-            width: 100% !important;
-            -webkit-text-size-adjust: 100%;
-            -ms-text-size-adjust: 100%;
-            margin: 0;
-            padding: 0;
+        .enclosing-table {
+          background: rgb(255, 255, 255) !important;
         }
-
-        .ExternalClass {
-            width: 100%;
-        }
-
-        .ExternalClass,
-        .ExternalClass p,
-        .ExternalClass span,
-        .ExternalClass font,
-        .ExternalClass td,
-        .ExternalClass div {
-            line-height: 100%;
-        }
-
-        img {
-            outline: none;
-            text-decoration: none;
-            -ms-interpolation-mode: bicubic;
-        }
-
-        a img {
-            border: none;
-        }
-
+        h1,
+        p,
         a {
-            text-decoration: none;
+          text-align: center;
+          padding: 0 !important;
+          margin: 0 !important;
         }
-
-        p {
-            margin: 1em 0;
+        tr,
+        td {
+          display: block !important;
+          width: 96% !important;
         }
-
-        table td {
-            border-collapse: collapse;
+        .email-container {
+          max-width: 96% !important;
         }
-
-        /* hide unsubscribe from forwards*/
-
-        blockquote .original-only,
-        .WordSection1 .original-only {
-            display: none !important;
+        .title {
+          font-size: 80px !important;
         }
-
-        @media only screen and (max-width: 480px) {
-            body,
-            table,
-            td,
-            p,
-            a,
-            li,
-            blockquote {
-                -webkit-text-size-adjust: none !important;
-            }
-            /* Prevent Webkit platforms from changing default text sizes */
-            body {
-                width: 100% !important;
-                min-width: 100% !important;
-            }
-            /* Prevent iOS Mail from adding padding to the body */
-            #bodyCell {
-                padding: 10px !important;
-            }
-
-            #templateContainer {
-                max-width: 600px !important;
-                width: 100% !important;
-            }
-
-            h1 {
-                font-size: 24px !important;
-                line-height: 150% !important;
-            }
-
-            h2 {
-                font-size: 20px !important;
-                line-height: 150% !important;
-            }
-
-            h3 {
-                font-size: 18px !important;
-                line-height: 150% !important;
-            }
-
-            h4 {
-                font-size: 16px !important;
-                line-height: 150% !important;
-            }
-
-            #templatePreheader {
-                display: none !important;
-            }
-            /* Hide the template preheader to save space */
-            #headerImage {
-                height: auto !important;
-                max-width: 600px !important;
-                width: 100% !important;
-            }
-
-            .headerContent {
-                font-size: 20px !important;
-                line-height: 125% !important;
-            }
-
-            .bodyContent {
-                font-size: 18px !important;
-                line-height: 150% !important;
-            }
-
-            .footerContent {
-                font-size: 14px !important;
-                line-height: 115% !important;
-            }
-
-            .footerContent a {
-                display: inline !important;
-            }
-            /* Place footer social and utility links on their own lines, for easier access */
+        .subtitle {
+          font-size: 24px !important;
         }
-
-        /* ANDROID CENTER FIX */
-
-        div[style*="margin: 16px 0;"] {
-            margin: 0 !important;
+        .green-buttons {
+          width: 600px !important;
+          font-size: 28px !important;
         }
-</style>
-<table align="center" border="0" cellpadding="0" cellspacing="0" id="bodyTable" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; background-color: #F6f6f6; height: 100% !important; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0; width: 100% !important" width="100%">
-	<tbody>
-		<tr>
-			<td align="center" id="bodyCell" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; height: 100% !important; width: 100% !important; margin: 0; padding: 10px 35px 35px 35px;" valign="top"><!-- BEGIN TEMPLATE // -->
-			<table border="0" cellpadding="0" cellspacing="0" id="templateContainer" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 600px; min-width: 600px; border: none;">
-				<tbody>
-					<tr>
-						<td align="center" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" valign="top"><!-- BEGIN PREHEADER // --><!--HIDDEN PREHEADER CONTENT-->
-						<table border="0" cellpadding="0" cellspacing="0" id="templatePreheader" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; background-color: #F6F6F6; borde: none; mso-table-lspace: 0pt; mso-table-rspace: 0pt" width="100%">
-							<tbody>
-								<tr style="">
-									<td align="center" class="preheaderContent" pardot-region="preheader_content00" style="text-size-adjust: 100%; color: rgb(128, 128, 128); font-family: Helvetica; font-size: 10px; line-height: 12.5px; text-align: left; padding: 2px" valign="top">
-									<p style="display:none;">plus, #blossombracket semifinals and always be sure to look for the helpers</p>
-									</td>
-								</tr>
-							</tbody>
-						</table>
-						<!--END HIDDEN PREHEADER CONTENT-->
+        .img__browser {
+          display: none !important;
+        }
+        .img__responsive {
+          display: block !important;
+          align-items: center;
+        }
+        .article-1__title {
+          font-size: 30px !important;
+        }
+        .article-1__subtitle {
+          font-size: 26px !important;
+          padding-top: 16px !important;
+        }
+        .article-2__title,
+        .article-3__title {
+          padding: 5px 0 !important;
+          font-size: 26px !important;
+        }
+        .article-2__subtitle,
+        .article-3__subtitle {
+          padding: 5px 0 !important;
+          font-size: 22px !important;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- // preheader email text \\ -->
+    <div style="display: none; max-height: 0px; overflow: hidden;">Like our new leaflet look?
+      &nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;
+    </div>
+    <!-- // Begin Module: Outer most table of body \\ -->
+    <table
+      class="enclosing-table"
+      border="0"
+      cellpadding="0"
+      cellspacing="0"
+      height="100%"
+      width="100%"
+      style="background:rgb(246, 246, 246)"
+    >
+      <tr>
+        <td align="center">
+          <!-- // Begin Module: Email document that is a width of 600px \\ -->
+          <table
+            class="email-container"
+            border="0"
+            cellpadding="20"
+            cellspacing="0"
+            width="600"
+            style="background:rgb(255, 255, 255)"
+          >
+            <!-- // Begin Module: view online header \\ -->
+            <tr>
+              <td>
+                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+                    <td align="center">
+                      <p
+                        style="font-size: 14px; font-family: Lato, Helvetica, Arial, sans-serif; color: grey"
+                      >
+                        Email not displaying correctly?
+                        <a
+                          style="color: rgb(80, 80, 80); text-decoration: none;"
+                          href="%%view_online%%"
+                          >View Online.</a
+                        >
+                      </p>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <!-- // End Module: view online header \\ -->
 
-						<table border="0" cellpadding="0" cellspacing="0" id="templatePreheader" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; background-color: #F6F6F6; borde: none; mso-table-lspace: 0pt; mso-table-rspace: 0pt" width="100%">
-							<tbody>
-								<tr>
-									<td align="left" class="preheaderContent" pardot-region="preheader_content01" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; color: #808080; font-family: Open Sans, Helvetica; font-size: 10px; line-height: 12.5px; text-align: center; padding: 10px 20px 10px 0;" valign="top" width="180">Email not displaying correctly? <a href="%%view_online%%" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; color: #606060; font-weight: normal; text-decoration: underline;" target="_blank">View it in your browser</a>.</td>
-								</tr>
-							</tbody>
-						</table>
-						<!-- // END PREHEADER --></td>
-					</tr>
-					<tr>
-						<td align="center" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" valign="top"><!-- BEGIN HEADER // -->
-						<table border="0" cellpadding="0" cellspacing="0" id="templateHeader" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; background-color: #FFFFFF; border: none; mso-table-lspace: 0pt; mso-table-rspace: 0pt" width="100%">
-							<tbody>
-								<tr pardot-repeatable="" style="">
-									<td align="left" class="headerContent" pardot-data="" pardot-region="header_image" style="text-size-adjust: 100%; color: rgb(80, 80, 80); background: rgb(246, 246, 246); font-family: Open Sans, Helvetica; font-size: 20px; font-weight: bold; line-height: 20px; text-align: left; vertical-align: middle; padding: 25px 0;" valign="top"><a href="https://caseytrees.org/resources/blog/" target="_blank"><img alt="" border="0" height="107" src="http://go.pardot.com/l/685253/2019-01-16/53d/685253/765/Leaflet_flag_black_Final.png" style="width: 600px; height: 107px; border-width: 0px; border-style: solid;" width="600"> </a></td>
-								</tr>
-							</tbody>
-						</table>
-						<!-- // END HEADER --></td>
-					</tr>
-					<tr>
-						<td align="center" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" valign="top"><!-- BEGIN BODY // -->
-						<table border="0" cellpadding="0" cellspacing="0" id="templateBody" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; background-color: #FFFFFF; border: none; mso-table-lspace: 0pt; mso-table-rspace: 0pt" width="100%"><!-- STORY 1 BEGIN -->
-							<tbody>
-								<tr pardot-repeatable="" style="">
-									<td align="center" style="padding: 25px 0; background-color: #f6f6f6; font-family: Open Sans, Helvetica, Arial, sans-serif;" valign="top">
-									<table border="0" cellpadding="0" cellspacing="0" width="100%">
-										<tbody>
-											<tr pardot-repeatable="" style="">
-												<td align="left" class="headerContent" pardot-region="header_image" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; color: #505050; font-family: Open Sans, Helvetica; font-size: 20px; font-weight: bold; line-height: 20px; text-align: left; vertical-align: middle; padding: 0;" valign="top"><a href="https://caseytrees.org/2020/03/semi-finals-of-our-blossom-bracket/?utm_source=leaflet&utm_medium=email&utm_campaign=spring" target="_blank"><img alt="#blossombracket semis" border="0" height="200" src="https://caseytrees.org/wp-content/uploads/2020/03/Cherry-March-Madness-Bracket-week-3_Leaflet-email.png" style="width: 600px; height: 200px; border-width: 0px; border-style: solid;" width="600"></a></td>
-											</tr>
-											<tr pardot-repeatable="" style="">
-												<td align="center" class="bodyContent" pardot-data="" pardot-region="body_content" style="text-size-adjust: 100%; color: rgb(80, 80, 80); background: rgb(255, 255, 255); font-family: &quot;Open Sans&quot;, Helvetica; font-size: 14px; line-height: 26px; text-align: center; padding: 25px;" valign="top">
-												<h2 style="color: #444444 !important; display: block; font-family: Open Sans, Helvetica; font-size: 20px; font-style: normal; font-weight: bold; letter-spahttps://pi.pardot.com/emailEditor?type=template&amp;northstar=true&amp;useHml=false#cing: normal; line-height: 26px; margin: 0; padding-bottom:10px;">Semi-Finals of our Blossom Bracket</h2>
+            <!-- // Begin Module: TITLE HEADER\ -->
+            <tr>
+              <td valign="top">
+                <table border="0" cellpadding="25" cellspacing="0" width="100%">
+                  <tr>
+                    <td align="center">
+                      <h1
+                        class="title"
+                        style="margin: 0 0 0 0; font-family:sans-serif; font-size: 60px; letter-spacing: 4px; color: rgb(60,129,78);"
+                      >
+                        <span style="color: rgb(194,207,190)">THE</span>LEAFLET
+                      </h1>
+                      <p
+                        class="subtitle"
+                        style="font-weight: 520; margin: 0 0 0 0; font-family:sans-serif; font-size: 16px; color: rgb(86,86,86); letter-spacing: 6px;"
+                      >
+                        A CASEY TREES NEWSLETTER
+                      </p>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <!-- // End Module: TITLE HEADER \\ -->
 
-												<p style="color: #999999 !important; display: block; font-family: Open Sans, Helvetica; font-size: 16px; font-weight: normal; letter-spacing: normal; line-height: 26px; margin: 0; padding-bottom:10px; text-align: center">The first contest is a doozy.</p>
+            <!-- // Begin Module: ARTICLE #1, left picture with right text\ -->
+            <tr>
+              <td>
+                <table
+                  align="center"
+                  border="0"
+                  cellpadding="0"
+                  cellspacing="0"
+                  style="background-color:#FFFFFF;"
+                >
+                  <tr align="center">
+                    <td align="center" width="50%">
+                      <a href="https://caseytrees.org/2020/04/its-the-final-countdown/?utm_source=leaflet&utm_medium=email&utm_campaign=spring">
+                        <img
+                          class="img__browser"
+                          src="https://caseytrees.org/wp-content/uploads/2020/04/cherry-blossom-bracket-article-one.png"
+                          style="display:block; border-radius: 25% 0 25% 0;"
+                          alt="#blossombracket finals!"
+                        />
+                        <div class="img__responsive" style="display:none;">
+                          <img src="https://caseytrees.org/wp-content/uploads/2020/04/bracket-mobile.png" style="border-radius: 25% 0 25% 0;" alt="#blossombracket finals!"/>
+                        </div>
+                      </a>
+                    </td>
+                    <td
+                      valign="top"
+                      style="color:#505050; font-family: Lato, Helvetica, Arial, sans-serif; font-size:12px; line-height:100%; padding-top:10px; padding-right;10px; padding-bottom:10px; padding-left:10px;"
+                    >
+                      <table>
+                        <tr>
+                          <td width="100%">
+                            <p
+                              class="article-1__title"
+                              style="font-family: Lato, Helvetica, Arial, sans-serif; font-size: 20px; line-height: 1.3; font-weight: bold;"
+                            >
+                              It’s the Final Countdown...
+                            </p>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <p
+                              class="article-1__subtitle"
+                              style="font-family: Lato, Helvetica, Arial, sans-serif; font-size: 18px; line-height: 1.1;"
+                            >
+                            ...of our Cherry Blossom Bracket. Find out who the top two are and vote for your favorite!
+                            </p>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <!-- // End Module: ARTICLE #1 \\ -->
 
-												<table border="0" cellpadding="0" cellspacing="0" width="100%">
-													<tbody>
-														<tr>
-															<td align="center" style="padding: 20px 0 0 0;">
-															<div><!--[if mso]>
-                                  <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href=https://caseytrees.org/2020/03/semi-finals-of-our-blossom-bracket/?utm_source=leaflet&utm_medium=email&utm_campaign=spring"
-                                  style="height:60px;v-text-anchor:middle;width:170px;" arcsize="20%" stroke="f" fillcolor="#75b6c9">
-                                    <w:anchorlock ></w:anchorlock>
-                                    <center style="color:#ffffff;font-family:sans-serif;font-size:16px;font-weight:bold;" _mce_style="color: #ffffff; font-family: sans-serif; font-size: 16px; font-weight: bold;">
-                                      Read more &rarr;
-                                    </center>
-                                  </v:roundrect>
-                                  <![endif]--><!--[if !mso]--></div>
-															</td>
-														</tr>
-														<!--BUTTON FOR OUTLOOK END-->
-														<tr>
-															<td align="center" style="padding: 5px 0 5px 0;">
-															<table border="0" cellpadding="0" cellspacing="0" width="100%">
-																<tbody>
-																	<tr>
-																		<td align="center" style="padding: 5px 0 5px 0;">
-																		<table border="0 " cellpadding="0 " cellspacing="0 ">
-																			<tbody>
-																				<tr>
-																					<td align="center" bgcolor="#75b6c9 " style="border-radius: 26px;"><a href="https://caseytrees.org/2020/03/semi-finals-of-our-blossom-bracket/?utm_source=leaflet&utm_medium=email&utm_campaign=spring" style="font-size: 16px; font-family:Open Sans, Helvetica, Arial, sans-serif; color: #ffffff; text-decoration:none; border-radius: 26px; background-color: #75b6c9; padding: 14px 26px;border: 1px solid #75b6c9; display: block;" target="_blank ">Read more →</a></td>
-																				</tr>
-																			</tbody>
-																		</table>
-																		</td>
-																	</tr>
-																</tbody>
-															</table>
-															</td>
-														</tr>
-													</tbody>
-												</table>
-												<!--[endif]--><!--BUTTON END--></td>
-											</tr>
-										</tbody>
-									</table>
-									</td>
-								</tr>
-							</tbody>
-							<!-- STORY 1 END --><!-- STORY 2 BEGIN -->
-							<tbody>
-								<tr pardot-repeatable="" style="">
-									<td align="center" style="padding: 25px 0; background-color: #f6f6f6; font-family: Open Sans, Helvetica, Arial, sans-serif;" valign="top">
-									<table border="0" cellpadding="0" cellspacing="0" width="100%">
-										<tbody>
-											<tr pardot-repeatable="" style="">
-												<td align="left" class="headerContent" pardot-region="header_image" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; color: #505050; font-family: Open Sans, Helvetica; font-size: 20px; font-weight: bold; line-height: 20px; text-align: left; vertical-align: middle; padding: 0;" valign="top"><a href="https://caseytrees.org/2020/03/get-up-and-get-out-of-your-house-and-your-head/?utm_source=leaflet&utm_medium=email&utm_campaign=random" target="_blank"><img alt="Always look for the helpers" border="0" height="200" src="https://caseytrees.org/wp-content/uploads/2020/03/get-outside-email.jpg" style="width: 600px; height: 200px; border-width: 0px; border-style: solid;" width="600"></a></td>
-											</tr>
-											<tr pardot-repeatable="" style="">
-												<td align="center" class="bodyContent" pardot-data="" pardot-region="body_content" style="text-size-adjust: 100%; color: rgb(80, 80, 80); background: rgb(255, 255, 255); font-family: &quot;Open Sans&quot;, Helvetica; font-size: 14px; line-height: 26px; text-align: center; padding: 25px;" valign="top">
-												<h2 style="color: #444444 !important; display: block; font-family: Open Sans, Helvetica; font-size: 20px; font-style: normal; font-weight: bold; letter-spahttps://pi.pardot.com/emailEditor?type=template&amp;northstar=true&amp;useHml=false#cing: normal; line-height: 26px; margin: 0; padding-bottom:10px;">Get Up and Get Out (of Your House and Your Head!)</h2>
+            <!-- // Begin Module: Buttons Container\ -->
+            <tr>
+              <td align="center">
+                <table border="0" cellpadding="5" cellspacing="0">
+                  <tr>
+                    <!-- // Begin Module: LEFT BUTTON\ -->
+                    <td align="center" valign="middle">
+                      <div>
+                        <!--[if mso]>
+                          <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="" style="font-size:20px;height:80px;v-text-anchor:middle;width:296px;" arcsize="7%" stroke="f" fillcolor="#2b653a">
+                            <w:anchorlock/>
+                            <center>
+                          <![endif]-->
+                        <a
+                          class="green-buttons"
+                          href=""
+                          style="background-color:#2b653a;border-radius:5px;color:#ffffff;display:inline-block;font-family:'Lato',Helvetica,sans-serif;font-size:20px;font-weight:bold;line-height:80px;text-align:center;text-decoration:none;width:296px;-webkit-text-size-adjust:none;"
+                          >Virtual Classes!</a
+                        >
+                        <!--[if mso]>
+                            </center>
+                          </v:roundrect>
+                        <![endif]-->
+                      </div>
+                    </td>
+                    <!-- // End Module: LEFT BUTTON\ -->
 
-												<p style="color: #999999 !important; display: block; font-family: Open Sans, Helvetica; font-size: 16px; font-weight: normal; letter-spacing: normal; line-height: 26px; margin: 0; padding-bottom:10px; text-align: center">Spending time is nature can improve mental health, something practically all of us need these days.</p>
+                    <!-- // Begin Module: RIGHT BUTTON\ -->
+                    <td align="center" valign="middle"></td>
+                    <td align="center" valign="middle">
+                      <div>
+                        <!--[if mso]>
+                            <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="" style="font-size:20px;height:80px;v-text-anchor:middle;width:296px;" arcsize="7%" stroke="f" fillcolor="#2b653a">
+                              <w:anchorlock/>
+                              <center>
+                            <![endif]-->
+                        <a
+                          class="green-buttons"
+                          href=""
+                          style="background-color:#2b653a;border-radius:5px;color:#ffffff;display:inline-block;font-family:'Lato',Helvetica,sans-serif;font-size:20px;font-weight:bold;line-height:80px;text-align:center;text-decoration:none;width:296px;-webkit-text-size-adjust:none;"
+                          >Your City Your Trees</a
+                        >
+                        <!--[if mso]>
+                              </center>
+                            </v:roundrect>
+                          <![endif]-->
+                      </div>
+                    </td>
+                    <!-- // End Module: RIGHT BUTTON\ -->
+                  </tr>
+                </table>
 
-												<table border="0" cellpadding="0" cellspacing="0" width="100%">
-													<tbody>
-														<tr>
-															<td align="center" style="padding: 20px 0 0 0;">
-															<div><!--[if mso]>
-                                  <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href=https://caseytrees.org/2020/03/get-up-and-get-out-of-your-house-and-your-head/?utm_source=leaflet&utm_medium=email&utm_campaign=random"
-                                  style="height:60px;v-text-anchor:middle;width:170px;" arcsize="20%" stroke="f" fillcolor="#75b6c9">
-                                    <w:anchorlock ></w:anchorlock>
-                                    <center style="color:#ffffff;font-family:sans-serif;font-size:16px;font-weight:bold;" _mce_style="color: #ffffff; font-family: sans-serif; font-size: 16px; font-weight: bold;">
-                                      Read more &rarr;
-                                    </center>
-                                  </v:roundrect>
-                                  <![endif]--><!--[if !mso]--></div>
-															</td>
-														</tr>
-														<!--BUTTON FOR OUTLOOK END-->
-														<tr>
-															<td align="center" style="padding: 5px 0 5px 0;">
-															<table border="0" cellpadding="0" cellspacing="0" width="100%">
-																<tbody>
-																	<tr>
-																		<td align="center" style="padding: 5px 0 5px 0;">
-																		<table border="0 " cellpadding="0 " cellspacing="0 ">
-																			<tbody>
-																				<tr>
-																					<td align="center" bgcolor="#75b6c9 " style="border-radius: 26px;"><a href="https://caseytrees.org/2020/03/get-up-and-get-out-of-your-house-and-your-head/?utm_source=leaflet&utm_medium=email&utm_campaign=random" style="font-size: 16px; font-family:Open Sans, Helvetica, Arial, sans-serif; color: #ffffff; text-decoration:none; border-radius: 26px; background-color: #75b6c9; padding: 14px 26px;border: 1px solid #75b6c9; display: block;" target="_blank ">Read more →</a></td>
-																				</tr>
-																			</tbody>
-																		</table>
-																		</td>
-																	</tr>
-																</tbody>
-															</table>
-															</td>
-														</tr>
-													</tbody>
-												</table>
-												<!--[endif]--><!--BUTTON END--></td>
-											</tr>
-										</tbody>
-									</table>
-									</td>
-								</tr>
-							</tbody>
-							<!-- STORY 2 END --><!-- STORY 3 BEGIN -->
-							<tbody>
-								<tr pardot-repeatable="" style="">
-									<td align="center" style="padding: 25px 0; background-color: #f6f6f6; font-family: Open Sans, Helvetica, Arial, sans-serif;" valign="top">
-									<table border="0" cellpadding="0" cellspacing="0" width="100%">
-										<tbody>
-											<tr pardot-repeatable="" style="">
-												<td align="left" class="headerContent" pardot-region="header_image" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; color: #505050; font-family: Open Sans, Helvetica; font-size: 20px; font-weight: bold; line-height: 20px; text-align: left; vertical-align: middle; padding: 0;" valign="top"><a href="https://caseytrees.org/2020/03/look-for-the-helpers/?utm_source=leaflet&utm_medium=email&utm_campaign=programming" target="_blank"><img alt="Trees and mental health" border="0" height="200" src="https://caseytrees.org/wp-content/uploads/2020/03/helpers-email.png" style="width: 600px; height: 200px; border-width: 0px; border-style: solid;" width="600"></a></td>
-											</tr>
-											<tr pardot-repeatable="" style="">
-												<td align="center" class="bodyContent" pardot-data="" pardot-region="body_content" style="text-size-adjust: 100%; color: rgb(80, 80, 80); background: rgb(255, 255, 255); font-family: &quot;Open Sans&quot;, Helvetica; font-size: 14px; line-height: 26px; text-align: center; padding: 25px;" valign="top">
-												<p style="display: block; font-family: &quot;Open Sans&quot;, Helvetica; letter-spacing: normal; line-height: 26px; margin: 0px; padding-bottom: 10px; text-align: center;"><font color="#444444"><span style="font-size: 20px;"><b>Look for the Helpers<br></b></span></font><br>
-												<span style="color: rgb(153, 153, 153) !important; font-size: 16px; font-weight: normal;">A lot is uncertain these days, but there is a lot that is certain, including the power of those doing good</span></p>
+                <!--[if mso]>
+                            </center>
+                          </v:roundrect>
+                        <![endif]-->
+              </td>
+            </tr>
+            <!-- // End Module: Buttons Container\ -->
 
-												<table border="0" cellpadding="0" cellspacing="0" width="100%">
-													<tbody>
-														<tr>
-															<td align="center" style="padding: 20px 0 0 0;">
-															<div><!--[if mso]>
-                                  <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href=https://caseytrees.org/2020/03/look-for-the-helpers/?utm_source=leaflet&utm_medium=email&utm_campaign=programming"
-                                  style="height:60px;v-text-anchor:middle;width:170px;" arcsize="20%" stroke="f" fillcolor="#75b6c9">
-                                    <w:anchorlock ></w:anchorlock>
-                                    <center style="color:#ffffff;font-family:sans-serif;font-size:16px;font-weight:bold;" _mce_style="color: #ffffff; font-family: sans-serif; font-size: 16px; font-weight: bold;">
-                                      Read more &rarr;
-                                    </center>
-                                  </v:roundrect>
-                                  <![endif]--><!--[if !mso]--></div>
-															</td>
-														</tr>
-														<!--BUTTON FOR OUTLOOK END-->
-														<tr>
-															<td align="center" style="padding: 5px 0 5px 0;">
-															<table border="0" cellpadding="0" cellspacing="0" width="100%">
-																<tbody>
-																	<tr>
-																		<td align="center" style="padding: 5px 0 5px 0;">
-																		<table border="0 " cellpadding="0 " cellspacing="0 ">
-																			<tbody>
-																				<tr>
-																					<td align="center" bgcolor="#75b6c9 " style="border-radius: 26px;"><a href="https://caseytrees.org/2020/03/look-for-the-helpers/?utm_source=leaflet&utm_medium=email&utm_campaign=programming" style="font-size: 16px; font-family:Open Sans, Helvetica, Arial, sans-serif; color: #ffffff; text-decoration:none; border-radius: 26px; background-color: #75b6c9; padding: 14px 26px;border: 1px solid #75b6c9; display: block;" target="_blank ">Read more →</a></td>
-																				</tr>
-																			</tbody>
-																		</table>
-																		</td>
-																	</tr>
-																</tbody>
-															</table>
-															</td>
-														</tr>
-													</tbody>
-												</table>
-												<!--[endif]--><!--BUTTON END--></td>
-											</tr>
-										</tbody>
-									</table>
-									</td>
-								</tr>
-							</tbody>
-							<!-- STORY 1 END --
-						</table>
-						<!-- // END BODY -->
-							<tbody>
-								<tr>
-									<td align="center" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" valign="top"><!-- BEGIN FOOTER // -->
-									<table border="0" cellpadding="0" cellspacing="0" id="templateFooter" style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; background-color: #FFFFFF; border: none; mso-table-lspace: 0pt; mso-table-rspace: 0pt" width="100%">
-										<tbody>
-											<tr pardot-removable="" style="">
-												<td align="center" class="footerContent" pardot-data="" pardot-region="footer_content00" style="text-size-adjust: 100%; color: rgb(128, 128, 128); background: rgb(246, 246, 246); font-family: &quot;Open Sans&quot;, Helvetica; font-size: 10px; line-height: 15px; text-align: center; padding: 20px;" valign="top">
-												<p><img alt="Black Tree Logo" border="0" src="https://caseytrees.org/wp-content/uploads/2019/01/black-tree-logo.png" width="100"></p>
+            <!-- // Begin Module: ARTICLE #2\ -->
+            <tr>
+              <td>
+                <table
+                  align="center"
+                  border="0"
+                  cellpadding="0"
+                  cellspacing="0"
+                  style="background-color:#FFFFFF;"
+                >
+                  <tr>
+                    <td width="50%" align="center">
+                      <a href="https://caseytrees.org/2020/04/lets-kick-off-arbor-month-with-a-lil-quiz-on-its-history/?utm_source=leaflet&utm_medium=email&utm_campaign=nationalholiday">
+                        <img
+                          class="img__browser"
+                          src="https://caseytrees.org/wp-content/uploads/2020/04/citscimonth-article-two.png"
+                          style="display:block; border-radius: 25% 0 25% 0;"
+                          alt="arbor day quiz!"
+                        />
+                        <div class="img__responsive" style="display:none;">
+                          <img src="https://caseytrees.org/wp-content/uploads/2020/04/citiscimonth-responsive.jpg" style="border-radius: 25% 0 25% 0;" alt="arbor day quiz!"/>
+                        </div>
+                      </a>
+                    </td>
+                    <td width="50%" valign="top">
+                      <table align="center">
+                        <tr>
+                          <td>
+                            <p
+                              class="article-2__title"
+                              style="color:rgb(80, 80, 80); font-family: Lato, Helvetica, Arial, sans-serif; font-size: 18px; font-weight: bold;"
+                            >
+                               April is Citizen Science Month
+                            </p>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <p
+                              class="article-2__subtitle"
+                              style="color:rgb(80, 80, 80); font-family: Lato, Helvetica, Arial, sans-serif; font-size: 16px; line-height: 1.1;"
+                            >
+                            We’re here to tell you all about what citizen science is and why it’s a great activity for our physically distant world these days.
+                            </p>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <!-- // End Module: ARTICLE #2\ -->
 
-												<p><a href="http://www.facebook.com/pages/Casey-Trees/58793928339"><img alt="" height="35" src="https://caseytrees.org/wp-content/uploads/2018/11/facebook-logo13259.png" width="35"> </a>&nbsp;&nbsp; <a href="http://twitter.com/caseytrees"> <img alt="" height="35" src="https://caseytrees.org/wp-content/uploads/2018/11/twitter-logo.png" width="35"> </a>&nbsp;&nbsp; <a href="http://instagram.com/CaseyTrees"> <img alt="" height="35" src="https://caseytrees.org/wp-content/uploads/2018/11/instagram-logo.png" width="35"> </a>&nbsp;&nbsp; <a href="http://flickr.com/photos/caseytrees"> <img alt="" height="35" src="https://caseytrees.org/wp-content/uploads/2018/11/flickr-logo.png" width="35"> </a>&nbsp;&nbsp; <a href="http://www.youtube.com/caseytrees"> <img alt="" height="35" src="https://caseytrees.org/wp-content/uploads/2018/11/youtube-logo.png" width="35"> </a></p>
-												</td>
-											</tr>
-											<tr style="">
-												<td align="center" class="footerContent" pardot-region="footer_content01" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; color: #808080; background-color: #f6f6f6; font-family: Open Sans, Helvetica; font-size: 10px; line-height: 15px; text-align: left; padding: 0 20px 20px;" valign="top">
-												<div style="text-align: center;"><span style="font-size:1.3em; color: #999999; line-height: 1.5em"><span style="font-family:Open Sans, Helvetica, sans-serif;">3030 12th St NE<br>
-												Washington, D.C. 20017</span> </span></div>
-												</td>
-											</tr>
-											<tr style="">
-												<td align="center" class="footerContent original-only" pardot-data="" pardot-region="footer_content02" style="text-size-adjust: 100%; color: rgb(153, 153, 153); background: rgb(246, 246, 246); font-family: &quot;Open Sans&quot;, Helvetica; font-size: 12px; line-height: 15px; text-align: center; padding: 0px 20px 40px;" valign="top"><a href="%%email_preference_center%%" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; color: #606060; font-weight: normal; text-decoration: underline;">update subscription preferences</a>&nbsp;&nbsp;|&nbsp;&nbsp; <a href="%%unsubscribe%%" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; color: #606060; font-weight: normal; text-decoration: underline;">unsubscribe from all emails</a></td>
-											</tr>
-										</tbody>
-									</table>
-									<!-- // END FOOTER --></td>	
-								</tr>
-							</tbody>
-						</table>
-						<!-- // END TEMPLATE --></td>
-					</tr>
-				</tbody>
-			</table>
-			<br>
-			<!--
-          This email was originally designed by the wonderful folks at MailChimp and remixed by Pardot.
-          It is licensed under CC BY-SA 3.0
-        --></td>
-		</tr>
-	</tbody>
-</table>
-</body>
+            <!-- // Begin Module: ARTICLE #3\ -->
+            <tr>
+              <td>
+                <table
+                  align="center"
+                  border="0"
+                  cellpadding="0"
+                  cellspacing="0"
+                  style="background-color:#FFFFFF;"
+                >
+                  <tr>
+                    <td width="50%" align="center">
+                      <a href="https://caseytrees.org/2020/04/april-is-citizen-science-month/?utm_source=leaflet&utm_medium=email&utm_campaign=citizenscience">
+                        <img
+                          class="img__browser"
+                          src="https://caseytrees.org/wp-content/uploads/2020/04/arbordayquiz-email-browser.jpg"
+                          style="display:block; border-radius: 25% 0 25% 0;"
+                          alt="april is citizen science month"
+                        />
+                        <div class="img__responsive" style="display:none;">
+                          <img src="https://caseytrees.org/wp-content/uploads/2020/04/arbordayquiz-email-mobile.jpg" style="border-radius: 25% 0 25% 0;" alt="april is citizen science month"/>
+                        </div>
+                      </a>
+                    </td>
+                    <td width="50%" valign="top">
+                      <table align="center">
+                        <tr>
+                          <td>
+                            <p
+                              class="article-3__title"
+                              style="color:rgb(80, 80, 80); font-family: Lato, Helvetica, Arial, sans-serif; font-size: 18px;  font-weight: bold;"
+                            >
+                              Let’s Kick Off Arbor Month with a Lil Quiz on its History
+                            </p>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <p
+                              class="article-3__subtitle"
+                              style="font-family: Lato, Helvetica, Arial, sans-serif; font-size: 16px; line-height: 1.1;"
+                            >
+                            To start, let’s learn the history of Arbor Day and how it came to be.
+                            </p>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <!-- // End Module: ARTICLE #2\ -->
 
+            <!-- // Begin Module: DONATE BUTTON\ -->
+            <tr>
+              <td align="center" valign="top">
+                <div>
+                  <!--[if mso]>
+                    <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://caseytrees.org/give/evergreen-membership-donation-form/" style="font-size:24px;height:70px;v-text-anchor:middle;width:596px;" arcsize="6%" stroke="f" fillcolor="#cb8a4b">
+                      <w:anchorlock/>
+                      <center>
+                    <![endif]-->
+                  <a
+                    href="https://connect.clickandpledge.com/w/Form/b7852b67-4119-4738-bb07-db98ef6eaee4?637139852829640420utm_source=leaflet&utm_medium=email&utm_campaign=leaflet&trk=leaflet"
+                    style="background-color:#cb8a4b;border-radius:4px;color:#ffffff;display:inline-block;font-family: Lato, Helvetica, sans-serif;font-size:24px;font-weight:bold;line-height:70px;text-align:center;text-decoration:none;width:596px;-webkit-text-size-adjust:none;"
+                    >DONATE TO HELP SUPPORT D.C.'s TREES!</a
+                  >
+                  <!--[if mso]>
+                      </center>
+                    </v:roundrect>
+                  <![endif]-->
+                </div>
+              </td>
+            </tr>
+            <!-- // End Module: DONATE BUTTON\ -->
+
+            <!-- // Begin Module: LOGO\ -->
+            <tr cellpadding="0">
+              <td cellpadding="0" align="center">
+                <a href="https://caseytrees.org/"
+                  ><img
+                    width="138"
+                    src="https://caseytrees.org/wp-content/uploads/2019/01/black-tree-logo.png"
+                /></a>
+              </td>
+            </tr>
+            <!-- // End Module: LOGO\ -->
+
+            <!-- // Begin Module: Social LOGOS\ -->
+            <tr cellpadding="0">
+              <td style="text-align: center; padding: 10px;" valign="top">
+                <p>
+                  <a
+                    href="http://www.facebook.com/pages/Casey-Trees/58793928339"
+                    ><img
+                      alt=""
+                      height="35"
+                      src="https://caseytrees.org/wp-content/uploads/2018/11/facebook-logo13259.png"
+                      width="35"/></a
+                  >&nbsp;&nbsp;
+                  <a href="http://twitter.com/caseytrees"
+                    ><img
+                      alt=""
+                      height="35"
+                      src="https://caseytrees.org/wp-content/uploads/2018/11/twitter-logo.png"
+                      width="35"/></a
+                  >&nbsp;&nbsp;<a href="http://instagram.com/CaseyTrees"
+                    ><img
+                      alt=""
+                      height="35"
+                      src="https://caseytrees.org/wp-content/uploads/2018/11/instagram-logo.png"
+                      width="35"/></a
+                  >&nbsp;&nbsp;<a href="http://flickr.com/photos/caseytrees"
+                    ><img
+                      alt=""
+                      height="35"
+                      src="https://caseytrees.org/wp-content/uploads/2018/11/flickr-logo.png"
+                      width="35"/></a
+                  >&nbsp;&nbsp;<a href="http://www.youtube.com/caseytrees"
+                    ><img
+                      alt=""
+                      height="35"
+                      src="https://caseytrees.org/wp-content/uploads/2018/11/youtube-logo.png"
+                      width="35"
+                  /></a>
+                </p>
+              </td>
+            </tr>
+            <!-- // End Module: Social LOGOS\ -->
+
+            <!-- // Begin Module: Footer texts\ -->
+            <tr cellpadding="0">
+              <td cellpadding="0" align="center">
+                <p
+                  style="color: rgb(80, 80, 80); text-decoration: none; font-family: Lato, Helvetica, Arial, sans-serif;"
+                >
+                  Casey Trees | 3030 12th Street NE | Washington, DC 20017
+                </p>
+                <!-- // End Module: ADDRESS\ -->
+
+                <!-- // Begin Module: Email Preferences\ -->
+                <a
+                  style="color: rgb(80, 80, 80); text-decoration: none; font-family: Lato, Helvetica, Arial, sans-serif;"
+                  href="%%email_preference_center%%"
+                >
+                  update subscription preferences
+                </a>
+                |
+                <a
+                  style="color: rgb(80, 80, 80); text-decoration: none; font-family: Lato, Helvetica, Arial, sans-serif;"
+                  href="%%unsubscribe%%"
+                >
+                  unsubscribe from all emails
+                </a>
+                <!-- // End Module: Email Preferences\ -->
+                <br />
+                <!-- // Begin Module: Copyright\ -->
+                <p
+                  style="color: grey; text-decoration: none; font-family: Lato, Helvetica, Arial, sans-serif; font-size: 12px;"
+                >
+                  Copyright © 2020 Casey Trees, All rights reserved.
+                </p>
+                <!-- // End Module: Copyright\ -->
+              </td>
+            </tr>
+            <!-- // Begin Module: Footer texts\ -->
+          </table>
+
+          <!-- // End Module: Email document that is a width of 600px \\ -->
+        </td>
+      </tr>
+    </table>
+
+    <!-- // End Module: Outer most table of body \\ -->
+  </body>
 </html>

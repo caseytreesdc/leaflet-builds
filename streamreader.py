@@ -11,8 +11,10 @@ NVP_20200413 = {
     'article-1__description': '...while finding joy in the present. And what that has to do with trees.',
     'button-1__link': 'https://littlesesameadventures.com/pages/earthday5k#we5ccYlKDiZz7pfdZS3vRg',
     'button-1__image': 'https://caseytrees.org/wp-content/uploads/2020/04/Leaflet-5k-ads-02.png',
+    'button-1__alt-text': '#RUNFORMOTHEREARTH with Little Sesame and Republic Restoratives',
     'button-2__link': 'https://littlesesameadventures.com/pages/earthday5k#we5ccYlKDiZz7pfdZS3vRg',
     'button-2__image': 'https://caseytrees.org/wp-content/uploads/2020/04/Leaflet-5k-ads-03.png',
+    'button-2__alt-text': 'Regeister Here - Earth Day Virtual 5k',
     'article-2__link': 'https://caseytrees.org/2020/04/winner-of-cherry-blossom-bracket/?utm_source=leaflet&utm_medium=email&utm_campaign=spring',
     'article-2__alt-text': 'blossom bracket winner!',
     'article-2__image-browser': 'https://caseytrees.org/wp-content/uploads/2020/04/cherry-blossom-winner-browser.png',
@@ -25,9 +27,10 @@ NVP_20200413 = {
     'article-3__image-mobile': 'https://caseytrees.org/wp-content/uploads/2020/04/trees-of-note-update-responsive.png',
     'article-3__heading': 'We’ve Added to Our Blossoming Trees of D.C. Map!',
     'article-3__description': ' Featuring freshly added favorites like Lindens, Redbuds, and Tulip Trees.',
-    'banner-2__link': 'https://connect.clickandpledge.com/w/Form/76e310e2-e233-46b8-9cf6-c6995b4c5d97?trk=arbordayquiz',
-    'banner-2__image-browser': 'https://caseytrees.org/wp-content/uploads/2020/04/Leaflet-ad.png',
-    'banner-2__image-responsive': 'https://caseytrees.org/wp-content/uploads/2020/04/Leaflet-ad-mobile.png',
+    'banner__link': 'https://connect.clickandpledge.com/w/Form/76e310e2-e233-46b8-9cf6-c6995b4c5d97?trk=arbordayquiz',
+    'banner__image-browser': 'https://caseytrees.org/wp-content/uploads/2020/04/Leaflet-ad.png',
+    'banner__image-responsive': 'https://caseytrees.org/wp-content/uploads/2020/04/Leaflet-ad-mobile.png',
+    'banner__alt-text': 'Plant it Forward',
 }
 
 NVP = NVP_20200413

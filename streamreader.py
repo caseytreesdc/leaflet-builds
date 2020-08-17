@@ -2,7 +2,7 @@ import sys
 
 
 NVP_20200817 = {
-    'preheader': 'Plus, we’re cancelling our traditional fall event season',
+    'preheader': 'Plus, an executive statement on our fall season.',
     'article-1__link': 'https://caseytrees.org/2020/08/executive-statement-on-fall-events/?utm_source=leaflet&utm_medium=email&utm_campaign=programming',
     'article-1__alt-text': '',
     'article-1__image-browser': 'https://caseytrees.org/wp-content/uploads/2020/08/statetreequiz-browser2020.png',
@@ -27,7 +27,7 @@ NVP_20200817 = {
     'article-3__description': 'A tree-source just for teens!',
     'banner__link': 'https://casey-trees-dc.square.site/product/face-mask-dc-flag/87?cs=true',
     'banner__image-browser': 'https://caseytrees.org/wp-content/uploads/2020/08/Mask_Ad_1.png',
-    'banner__image-responsive': 'https://caseytrees.org/wp-content/uploads/2020/08/Mask_Ad_1-mobile.png',
+    'banner__image-responsive': 'https://caseytrees.org/wp-content/uploads/2020/08/MaskAd2-responsive.png',
     'banner__alt-text': 'Get a Casey Trees Mask! Protect Yourself, Protect others, Protect Our Urban Forester',
 }
 

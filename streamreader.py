@@ -18,17 +18,17 @@ NVP_20200817 = {
     'article-2__image-browser': 'https://caseytrees.org/wp-content/uploads/2020/08/vinewall-update-browser.png',
     'article-2__image-mobile': 'https://caseytrees.org/wp-content/uploads/2020/08/vinewall-update-email.png',
     'article-2__heading': 'An Update on PEPCO’s Green Wall',
-    'article-2__description': 'Ahh the beauty of consistent maintenance and care (not to mention a satisfying before and after!).',
+    'article-2__description': 'Ahh the beauty of consistent maintenance and care (not to mention a satisfying before and after!)',
     'article-3__link': 'https://caseytrees.org/2020/08/catch-us-for-teen-tuesday-exploring-land-use-and-climate-change/?utm_source=leaflet&utm_medium=email&utm_campaign=programming',
     'article-3__alt-text': '',
     'article-3__image-browser': 'https://caseytrees.org/wp-content/uploads/2020/08/teentuesday-browser.png',
     'article-3__image-mobile': 'https://caseytrees.org/wp-content/uploads/2020/08/teentuesdayemail.png',
     'article-3__heading': 'Catch Us for Teen Tuesday: Exploring Land Use and Climate Change',
     'article-3__description': 'A tree-source just for teens!',
-    'banner__link': 'https://casey-trees-dc.square.site/product/junior-urban-forester-package/85?cs=true',
-    'banner__image-browser': 'https://caseytrees.org/wp-content/uploads/2020/08/Leaflet-ad_TREEWISE.png',
-    'banner__image-responsive': 'https://caseytrees.org/wp-content/uploads/2020/08/Leaflet-ad_TREEWISE.png',
-    'banner__alt-text': 'at-home learning for kids',
+    'banner__link': 'https://casey-trees-dc.square.site/product/face-mask-dc-flag/87?cs=true',
+    'banner__image-browser': 'https://caseytrees.org/wp-content/uploads/2020/08/Mask_Ad_1.png',
+    'banner__image-responsive': 'https://caseytrees.org/wp-content/uploads/2020/08/Mask_Ad_1-mobile.png',
+    'banner__alt-text': 'Get a Casey Trees Mask! Protect Yourself, Protect others, Protect Our Urban Forester',
 }
 
 NVP = NVP_20200817

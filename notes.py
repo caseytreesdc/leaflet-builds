@@ -461,7 +461,6 @@ NVP_20200928 = {
     'banner__alt-text': 'Register Now: Tree ID Walk',
 }
 
-NVP = NVP_20200928
 
 NVP_20201005 = {
     'preheader': 'and happy Oaktober!',
@@ -491,4 +490,65 @@ NVP_20201005 = {
     'banner__image-browser': 'https://caseytrees.org/wp-content/uploads/2020/08/Mask_Ad_1.png',
     'banner__image-responsive': 'https://caseytrees.org/wp-content/uploads/2020/08/MaskAd2-responsive.png',
     'banner__alt-text': 'Get a Casey Trees Mask! Protect Yourself, Protect others, Protect Our Urban Forester',
+}
+
+
+NVP_20201013 = {
+    'preheader': 'and we are the champions!',
+    'article-1__link': 'https://caseytrees.org/2020/10/pandemic-planting-progress/?utm_source=leaflet&utm_medium=email&utm_campaign=citypartner',
+    'article-1__alt-text': '',
+    'article-1__image-browser': 'https://caseytrees.org/wp-content/uploads/2020/10/stocking-browser.png',
+    'article-1__image-mobile': 'https://caseytrees.org/wp-content/uploads/2020/10/stocking-email.png',
+    'article-1__heading': 'Pandemic Planting Progress',
+    'article-1__description': 'With enhanced safety protocols, citywide tree planting - through the work of the city’s Urban Forestry Division and us here at Casey Trees - is up! But what will it take to get to our canopy goal?',
+    'watering__link': 'https://caseytrees.maps.arcgis.com/apps/webappviewer/index.html?id=c7c2a30d5c95440b8316b12c7add426d',
+    'watering__image-browser': 'https://caseytrees.org/wp-content/uploads/2020/10/Leaflet-ad_fall-color-map.png',
+    'watering__image-responsive': 'https://caseytrees.org/wp-content/uploads/2020/10/Leaflet-ad_fall-color-map-mobile.png',
+    'watering__alt-text': 'View our fall color map.',
+    'article-2__link': 'https://caseytrees.org/2020/10/2020-champion-tree-register/?utm_source=leaflet&utm_medium=email&utm_campaign=treeinventory',
+    'article-2__alt-text': '',
+    'article-2__image-browser': 'https://caseytrees.org/wp-content/uploads/2020/10/nuttall-browser.png',
+    'article-2__image-mobile': 'https://caseytrees.org/wp-content/uploads/2020/10/nuttall-email.png',
+    'article-2__heading': '2020 Champion Tree Register',
+    'article-2__description': 'And where to find DC’s Champion Tree.',
+    'article-3__link': 'https://caseytrees.org/2020/10/oaktober-chestnut-oak/?utm_source=leaflet&utm_medium=email&utm_campaign=riversmarthomes',
+    'article-3__alt-text': '',
+    'article-3__image-browser': 'https://caseytrees.org/wp-content/uploads/2020/10/chestnuut-browser.png',
+    'article-3__image-mobile': 'https://caseytrees.org/wp-content/uploads/2020/10/chestnuut-email.png',
+    'article-3__heading': 'Oaktober: Chestnut Oak',
+    'article-3__description': 'We’re celebrating Oaktober by highlighting some of the Oak species we can plant for free as part of our residential planting programs.',
+    'banner__link': 'https://caseytrees.org/plant/residential-planting/',
+    'banner__image-browser': 'https://caseytrees.org/wp-content/uploads/2020/10/Leaflet-ad_rsh.png',
+    'banner__image-responsive': 'https://caseytrees.org/wp-content/uploads/2020/10/Leaflet-ad_rsh-mobile.png',
+    'banner__alt-text': 'Want free trees for your home?',
+}
+
+NVP_20201019 = {
+    'preheader': 'and Oaktober continues!',
+    'article-1__link': 'https://caseytrees.org/2020/10/from-our-urban-forestry-fellowship-to-bartlett-tree-research-lab-an-interview-with-two-fellowship-recipients/?utm_source=leaflet&utm_medium=email&utm_campaign=gca-scholarship',
+    'article-1__alt-text': '',
+    'article-1__image-browser': 'https://caseytrees.org/wp-content/uploads/2020/10/gca-profile-browser.png',
+    'article-1__image-mobile': 'https://caseytrees.org/wp-content/uploads/2020/10/gca-profile-emal.png',
+    'article-1__heading': 'From Our Urban Forestry Fellowship to Bartlett Tree Research Lab: An Interview with Two Fellowship Recipients',
+    'article-1__description': '“Urban Forestry is a broad, wide applicable field - don’t count you or your research out for this opportunity.”',
+    'watering__link': 'https://caseytrees.org/farm',
+    'watering__image-browser': 'https://caseytrees.org/wp-content/uploads/2020/07/Leaflet-ad_farm.png',
+    'watering__image-responsive': 'https://caseytrees.org/wp-content/uploads/2020/07/Leaflet-ad_farm-responsive.png',
+    'watering__alt-text': 'Curious about our trees farm? Explore DC State Nursery at Casey Tree Farm',
+    'article-2__link': 'https://caseytrees.org/2020/10/2020-treewise-the-more-things-change-the-more-they-stay-the-same/?utm_source=leaflet&utm_medium=email&utm_campaign=programming',
+    'article-2__alt-text': '',
+    'article-2__image-browser': 'https://caseytrees.org/wp-content/uploads/2020/10/kid-one-browser.png',
+    'article-2__image-mobile': 'https://caseytrees.org/wp-content/uploads/2020/10/kid-one-email.png',
+    'article-2__heading': '2020 TreeWise: The More Things Change, The More They Stay The Same',
+    'article-2__description': 'How our summer youth education program went virtual but remained true to its mission to build the next generation of stewards.',
+    'article-3__link': 'https://caseytrees.org/2020/10/oaktober-nuttall-oak/?utm_source=leaflet&utm_medium=email&utm_campaign=riversmarthomes',
+    'article-3__alt-text': '',
+    'article-3__image-browser': 'https://caseytrees.org/wp-content/uploads/2020/10/nuttall-browser.png',
+    'article-3__image-mobile': 'https://caseytrees.org/wp-content/uploads/2020/10/nuttall-email.png',
+    'article-3__heading': 'Oaktober: Nuttall Oak',
+    'article-3__description': 'We’re celebrating Oaktober by highlighting some of the Oak species we can plant for free as part of our residential planting programs.',
+    'banner__link': 'https://caseytrees.org/plant/residential-planting/',
+    'banner__image-browser': 'https://caseytrees.org/wp-content/uploads/2020/10/Leaflet-ad_rsh.png',
+    'banner__image-responsive': 'https://caseytrees.org/wp-content/uploads/2020/10/Leaflet-ad_rsh-mobile.png',
+    'banner__alt-text': 'Want free trees for your home?',
 }

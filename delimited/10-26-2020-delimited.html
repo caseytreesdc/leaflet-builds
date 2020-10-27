@@ -34,7 +34,7 @@
         h1,
         p,
         a {
-          padding: 0 !important;
+          /* padding: 0 !important; */
           margin: 0 !important;
         }
         tr,
@@ -83,13 +83,16 @@
           padding: 5px 0 !important;
           font-size: 34px !important;
         }
+        .button_text {
+          font-size: 40px !important;
+        }
       }
     </style>
   </head>
   <body>
     <!-- // preheader email text \\ -->
-    <div style="display: none; max-height: 0px; overflow: hidden;">
-      and we are the champions!
+    <div style="display: none; max-height: 0px; overflow: hidden">
+      %%preheader%%
       &nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;
     </div>
     <!-- // Begin Module: Outer most table of body \\ -->
@@ -100,7 +103,7 @@
       cellspacing="0"
       height="100%"
       width="100%"
-      style="background: rgb(246, 246, 246);"
+      style="background: rgb(246, 246, 246)"
     >
       <tr>
         <td align="center">
@@ -111,7 +114,7 @@
             cellpadding="20"
             cellspacing="0"
             width="600"
-            style="background: rgb(255, 255, 255);"
+            style="background: rgb(255, 255, 255)"
           >
             <!-- // Begin Module: view online header \\ -->
             <tr>
@@ -128,7 +131,7 @@
                       >
                         Email not displaying correctly?
                         <a
-                          style="color: rgb(80, 80, 80); text-decoration: none;"
+                          style="color: rgb(80, 80, 80); text-decoration: none"
                           target="__blank"
                           href="%%view_online%%"
                           >View Online.</a
@@ -157,7 +160,7 @@
                           color: rgb(60, 129, 78);
                         "
                       >
-                        <span style="color: rgb(194, 207, 190);">THE</span
+                        <span style="color: rgb(194, 207, 190)">THE</span
                         >LEAFLET
                       </h1>
                       <p
@@ -188,22 +191,22 @@
                   border="0"
                   cellpadding="0"
                   cellspacing="0"
-                  style="background-color: #ffffff;"
+                  style="background-color: #ffffff"
                 >
                   <tr align="center">
                     <td align="center" width="50%">
-                      <a target="__blank" href="https://caseytrees.org/2020/10/pandemic-planting-progress/?utm_source=leaflet&utm_medium=email&utm_campaign=citypartner">
+                      <a target="__blank" href="%%article-1__link%%">
                         <img
                           class="img__browser"
-                          src="https://caseytrees.org/wp-content/uploads/2020/10/stocking-browser.png"
-                          style="display: block; border-radius: 25% 0 25% 0;"
-                          alt=""
+                          src="%%article-1__image-browser%%"
+                          style="display: block; border-radius: 25% 0 25% 0"
+                          alt="%%article-1__alt-text%%"
                         />
-                        <div class="img__responsive" style="display: none;">
+                        <div class="img__responsive" style="display: none">
                           <img
-                            src="https://caseytrees.org/wp-content/uploads/2020/10/stocking-email.png"
-                            style="border-radius: 25% 0 25% 0;"
-                            alt=""
+                            src="%%article-1__image-mobile%%"
+                            style="border-radius: 25% 0 25% 0"
+                            alt="%%article-1__alt-text%%"
                           />
                         </div>
                       </a>
@@ -226,9 +229,9 @@
                                 font-weight: bold;
                               "
                               target="__blank"
-                              href="https://caseytrees.org/2020/10/pandemic-planting-progress/?utm_source=leaflet&utm_medium=email&utm_campaign=citypartner"
+                              href="%%article-1__link%%"
                             >
-                              Pandemic Planting Progress
+                              %%article-1__heading%%
                             </a>
                           </td>
                         </tr>
@@ -243,7 +246,7 @@
                                 line-height: 1.1;
                               "
                             >
-                              With enhanced safety protocols, citywide tree planting - through the work of the city’s Urban Forestry Division and us here at Casey Trees - is up! But what will it take to get to our canopy goal?
+                              %%article-1__description%%
                             </p>
                           </td>
                         </tr>
@@ -259,19 +262,19 @@
             <tr>
               <td align="center" valign="top">
                 <div>
-                  <a target="__blank" href="https://caseytrees.maps.arcgis.com/apps/webappviewer/index.html?id=c7c2a30d5c95440b8316b12c7add426d"
+                  <a target="__blank" href="%%watering__link%%"
                     ><img
                       class="img__browser"
-                      style="border-radius: 10px;"
-                      src="https://caseytrees.org/wp-content/uploads/2020/10/Leaflet-ad_fall-color-map.png"
-                      alt="View our fall color map."
+                      style="border-radius: 10px"
+                      src="%%watering__image-browser%%"
+                      alt="%%watering__alt-text%%"
                       width="598" />
-                    <div style="display: none;" class="img__responsive">
+                    <div style="display: none" class="img__responsive">
                       <img
                         width="598"
-                        style="border-radius: 10px;"
-                        src="https://caseytrees.org/wp-content/uploads/2020/10/Leaflet-ad_fall-color-map-mobile.png"
-                        alt="View our fall color map."
+                        style="border-radius: 10px"
+                        src="%%watering__image-responsive%%"
+                        alt="%%watering__alt-text%%"
                       /></div
                   ></a>
                 </div>
@@ -287,22 +290,22 @@
                   border="0"
                   cellpadding="0"
                   cellspacing="0"
-                  style="background-color: #ffffff;"
+                  style="background-color: #ffffff"
                 >
                   <tr>
                     <td width="50%" align="center">
-                      <a target="__blank" href="https://caseytrees.org/2020/10/2020-champion-tree-register/?utm_source=leaflet&utm_medium=email&utm_campaign=treeinventory">
+                      <a target="__blank" href="%%article-2__link%%">
                         <img
                           class="img__browser"
-                          src="https://caseytrees.org/wp-content/uploads/2020/10/nuttall-browser.png"
-                          style="display: block; border-radius: 25% 0 25% 0;"
-                          alt=""
+                          src="%%article-2__image-browser%%"
+                          style="display: block; border-radius: 25% 0 25% 0"
+                          alt="%%article-2__alt-text%%"
                         />
-                        <div class="img__responsive" style="display: none;">
+                        <div class="img__responsive" style="display: none">
                           <img
-                            src="https://caseytrees.org/wp-content/uploads/2020/10/nuttall-email.png"
-                            style="border-radius: 25% 0 25% 0;"
-                            alt=""
+                            src="%%article-2__image-mobile%%"
+                            style="border-radius: 25% 0 25% 0"
+                            alt="%%article-2__alt-text%%"
                           />
                         </div>
                       </a>
@@ -322,9 +325,9 @@
                                 font-weight: bold;
                               "
                               target="__blank"
-                              href="https://caseytrees.org/2020/10/2020-champion-tree-register/?utm_source=leaflet&utm_medium=email&utm_campaign=treeinventory"
+                              href="%%article-2__link%%"
                             >
-                              2020 Champion Tree Register
+                              %%article-2__heading%%
                             </a>
                           </td>
                         </tr>
@@ -339,7 +342,7 @@
                                 line-height: 1.1;
                               "
                             >
-                              And where to find DC’s Champion Tree.
+                              %%article-2__description%%
                             </p>
                           </td>
                         </tr>
@@ -359,22 +362,22 @@
                   border="0"
                   cellpadding="0"
                   cellspacing="0"
-                  style="background-color: #ffffff;"
+                  style="background-color: #ffffff"
                 >
                   <tr>
                     <td width="50%" align="center">
-                      <a target="__blank" href="https://caseytrees.org/2020/10/oaktober-chestnut-oak/?utm_source=leaflet&utm_medium=email&utm_campaign=riversmarthomes">
+                      <a target="__blank" href="%%article-3__link%%">
                         <img
                           class="img__browser"
-                          src="https://caseytrees.org/wp-content/uploads/2020/10/chestnuut-browser.png"
-                          style="display: block; border-radius: 25% 0 25% 0;"
-                          alt=""
+                          src="%%article-3__image-browser%%"
+                          style="display: block; border-radius: 25% 0 25% 0"
+                          alt="%%article-3__alt-text%%"
                         />
-                        <div class="img__responsive" style="display: none;">
+                        <div class="img__responsive" style="display: none">
                           <img
-                            src="https://caseytrees.org/wp-content/uploads/2020/10/chestnuut-email.png"
-                            style="border-radius: 25% 0 25% 0;"
-                            alt=""
+                            src="%%article-3__image-mobile%%"
+                            style="border-radius: 25% 0 25% 0"
+                            alt="%%article-3__alt-text%%"
                           />
                         </div>
                       </a>
@@ -394,9 +397,9 @@
                                 font-weight: bold;
                               "
                               target="__blank"
-                              href="https://caseytrees.org/2020/10/oaktober-chestnut-oak/?utm_source=leaflet&utm_medium=email&utm_campaign=riversmarthomes"
+                              href="%%article-3__link%%"
                             >
-                              Oaktober: Chestnut Oak
+                              %%article-3__heading%%
                             </a>
                           </td>
                         </tr>
@@ -411,7 +414,7 @@
                                 line-height: 1.1;
                               "
                             >
-                              We’re celebrating Oaktober by highlighting some of the Oak species we can plant for free as part of our residential planting programs.
+                              %%article-3__description%%
                             </p>
                           </td>
                         </tr>
@@ -423,29 +426,35 @@
             </tr>
             <!-- // End Module: ARTICLE #3\ -->
 
-            <!-- // Begin Module: Banner Ad\ -->
+            <!-- // Begin Module: Text Ad\ -->
             <tr>
               <td align="center" valign="top">
-                <div>
-                  <a target="__blank" href="https://caseytrees.org/plant/residential-planting/"
-                    ><img
-                      class="img__browser"
-                      style="border-radius: 10px;"
-                      src="https://caseytrees.org/wp-content/uploads/2020/10/Leaflet-ad_rsh.png"
-                      alt="Want free trees for your home?"
-                      width="598" />
-                    <div style="display: none;" class="img__responsive">
-                      <img
-                        width="598"
-                        style="border-radius: 10px;"
-                        src="https://caseytrees.org/wp-content/uploads/2020/10/Leaflet-ad_rsh-mobile.png"
-                        alt="Want free trees for your home?"
-                      /></div
-                  ></a>
+                <div
+                  style="
+                    padding: 20px 0;
+                    background: #395940;
+                    border-radius: 10px;
+                  "
+                >
+                  <a
+                    style="
+                      text-decoration: none;
+
+                      color: #ffffff;
+                      font-family: Lato, Helvetica, Arial, sans-serif;
+                      font-size: 20px;
+                      line-height: 1.1;
+                    "
+                    class="text-button"
+                    target="__blank"
+                    href="%%banner__link%%"
+                  >
+                    %%banner_text%%</a
+                  >
                 </div>
               </td>
             </tr>
-            <!-- // End Module: BAnner AD \ -->
+            <!-- // End Module: Text AD \ -->
 
             <!-- // Begin Module: LOGO\ -->
             <tr cellpadding="0">
@@ -461,7 +470,7 @@
 
             <!-- // Begin Module: Social LOGOS\ -->
             <tr cellpadding="0">
-              <td style="text-align: center; padding: 10px;" valign="top">
+              <td style="text-align: center; padding: 10px" valign="top">
                 <p>
                   <a
                     target="__blank"

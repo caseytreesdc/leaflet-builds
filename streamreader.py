@@ -1,38 +1,38 @@
 import sys
 
 
-NVP_20201026 = {
-    'preheader': 'Plus, how trees, kids, and Casey Trees are resilient.',
-    'article-1__link': 'https://caseytrees.org/2020/10/elag/?utm_source=leaflet&utm_medium=email&utm_campaign=programming',
+NVP_20201102 = {
+    'preheader': 'and ideas for a mental health break this week.',
+    'article-1__link': 'https://caseytrees.org/2020/11/ideas-for-a-tree-based-mental-health-break/?utm_source=leaflet&utm_medium=email&utm_campaign=programming',
     'article-1__alt-text': '',
-    'article-1__image-browser': 'https://caseytrees.org/wp-content/uploads/2020/10/elag-browser.png',
-    'article-1__image-mobile': 'https://caseytrees.org/wp-content/uploads/2020/10/elag-email.png',
-    'article-1__heading': 'Coming Soon to a Classroom Near You: Casey Trees!',
-    'article-1__description': 'More on our work through the Environmental Literacy Advancement Grant also known as ELAG.',
-    'watering__link': 'https://casey-trees-dc.square.site/',
-    'watering__image-browser': 'https://caseytrees.org/wp-content/uploads/2020/08/Mask_Ad_1.png',
-    'watering__image-responsive': 'https://caseytrees.org/wp-content/uploads/2020/08/MaskAd2-responsive.png',
+    'article-1__image-browser': 'https://caseytrees.org/wp-content/uploads/2020/11/fall-mental-break-browser.png',
+    'article-1__image-mobile': 'https://caseytrees.org/wp-content/uploads/2020/10/fall-mental-break-email.png',
+    'article-1__heading': 'Ideas for a Tree-Based Mental Health Break',
+    'article-1__description': 'Days are shorter and darker and the newscycle can be overwhelming. Here are some resources to get up and get out of your head.',
+    'watering__link': 'https://caseytreesdc.github.io/ct-farm/',
+    'watering__image-browser': 'https://caseytrees.org/wp-content/uploads/2020/07/Leaflet-ad_farm.png',
+    'watering__image-responsive': 'https://caseytrees.org/wp-content/uploads/2020/07/Leaflet-ad_farm-responsive.png',
     'watering__alt-text': 'Check out the Casey Trees Online Store!',
-    'article-2__link': 'https://caseytrees.org/2020/10/unbe-leaf-ably-creative-costumes-for-halloween/?utm_source=leaflet&utm_medium=email&utm_campaign=nationalholiday',
+    'article-2__link': 'https://caseytrees.org/2020/11/dont-keep-this-to-yourself-advocacy-starts-with-sharing-or-a-zoom-class-to-make-difference/?utm_source=leaflet&utm_medium=email&utm_campaign=advocacy',
     'article-2__alt-text': '',
-    'article-2__image-browser': 'https://caseytrees.org/wp-content/uploads/2020/10/halloween-browser.png',
-    'article-2__image-mobile': 'https://caseytrees.org/wp-content/uploads/2020/10/halloween-email.png',
-    'article-2__heading': 'Unbe-leaf-ably Creative Costumes for Halloween',
-    'article-2__description': 'Let’s go all in on holiday joy this year shall we?',
-    'article-3__link': 'https://caseytrees.org/2020/10/20460/?utm_source=leaflet&utm_medium=email&utm_campaign=riversmarthomes',
+    'article-2__image-browser': 'https://caseytrees.org/wp-content/uploads/2020/11/AITD-browser.png',
+    'article-2__image-mobile': 'https://caseytrees.org/wp-content/uploads/2020/10/AITD-email.png',
+    'article-2__heading': 'Don’t Keep this to Yourself, Advocacy Starts with Sharing',
+    'article-2__description': 'Perhaps you have a vocal email chain or Twitter friend? Send them to our upcoming Advocacy in the District class!',
+    'article-3__link': 'https://caseytrees.org/2020/11/important-changes-to-dc-leaf-collection/?utm_source=leaflet&utm_medium=email&utm_campaign=citypartner',
     'article-3__alt-text': '',
-    'article-3__image-browser': 'https://caseytrees.org/wp-content/uploads/2020/10/overcup-broswer.png',
-    'article-3__image-mobile': 'https://caseytrees.org/wp-content/uploads/2020/10/overcup-email.png',
-    'article-3__heading': 'Oaktober: Overcup Oak',
-    'article-3__description': 'We’re celebrating Oaktober by highlighting some of the Oak species we can plant for free as part of our residential planting programs.',
-    'banner__link': 'https://connect.clickandpledge.com/w/Form/212c9142-dfbb-4801-8e11-d0f1b5810fc0?utm_source=leaflet&utm_medium=email&utm_campaign=membership&trk=leaflet&_ga=2.73358995.129279305.1601908695-656825217.1588074983',
+    'article-3__image-browser': 'https://caseytrees.org/wp-content/uploads/2020/11/leaf-collection-browser.png',
+    'article-3__image-mobile': 'https://caseytrees.org/wp-content/uploads/2020/10/leaf-collection-email.png',
+    'article-3__heading': 'Important Changes to DC Leaf Collection',
+    'article-3__description': 'DPW is now asking residents to use paper bags, and not rake leaves into tree boxes.',
+    'banner__link': 'https://caseytrees.maps.arcgis.com/apps/webappviewer/index.html?id=c7c2a30d5c95440b8316b12c7add426d',
     'banner_text': 'DONATE TODAY',
-    'banner__image-browser': '',
-    'banner__image-responsive': '',
+    'banner__image-browser': 'https://caseytrees.org/wp-content/uploads/2020/10/Leaflet-ad_fall-color-map.png',
+    'banner__image-responsive': 'https://caseytrees.org/wp-content/uploads/2020/10/Leaflet-ad_fall-color-map-mobile.png',
     'banner__alt-text': '',
 }
 
-NVP = NVP_20201026
+NVP = NVP_20201102
 #
 
 

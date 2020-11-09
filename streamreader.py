@@ -1,38 +1,40 @@
 import sys
 
 
-NVP_20201102 = {
-    'preheader': 'and ideas for a mental health break this week.',
-    'article-1__link': 'https://caseytrees.org/2020/11/ideas-for-a-tree-based-mental-health-break/?utm_source=leaflet&utm_medium=email&utm_campaign=programming',
+NVP_20201109 = {
+    'preheader': 'Plus, earn CEUs, and witnesses to history.',
+    'article-1__link': 'https://caseytrees.org/2020/11/urban-tree-summit/?utm_source=leaflet&utm_medium=email&utm_campaign=greencitiessummit',
     'article-1__alt-text': '',
-    'article-1__image-browser': 'https://caseytrees.org/wp-content/uploads/2020/11/fall-mental-break-browser.png',
-    'article-1__image-mobile': 'https://caseytrees.org/wp-content/uploads/2020/10/fall-mental-break-email.png',
-    'article-1__heading': 'Ideas for a Tree-Based Mental Health Break',
-    'article-1__description': 'Days are shorter and darker and the newscycle can be overwhelming. Here are some resources to get up and get out of your head.',
-    'watering__link': 'https://caseytreesdc.github.io/ct-farm/',
-    'watering__image-browser': 'https://caseytrees.org/wp-content/uploads/2020/07/Leaflet-ad_farm.png',
-    'watering__image-responsive': 'https://caseytrees.org/wp-content/uploads/2020/07/Leaflet-ad_farm-responsive.png',
+    'article-1__image-browser': 'https://caseytrees.org/wp-content/uploads/2020/11/urbantreesummit-browser.png',
+    'article-1__image-mobile': 'https://caseytrees.org/wp-content/uploads/2020/10/urbantreesummit-email.png',
+    'article-1__heading': 'Urban Tree Summit',
+    'article-1__description': 'For the future health and welfare of our urban and suburban trees.',
+    'watering__link': 'https://caseytrees.org/2020/11/dont-keep-this-to-yourself-advocacy-starts-with-sharing-or-a-zoom-class-to-make-difference/',
+    'watering__image-browser': 'https://caseytrees.org/wp-content/uploads/2020/11/Leaflet-ad_aitd.png',
+    'watering__image-responsive': 'https://caseytrees.org/wp-content/uploads/2020/11/Leaflet-ad_aitd-mobile.png',
     'watering__alt-text': 'Check out the Casey Trees Online Store!',
-    'article-2__link': 'https://caseytrees.org/2020/11/dont-keep-this-to-yourself-advocacy-starts-with-sharing-or-a-zoom-class-to-make-difference/?utm_source=leaflet&utm_medium=email&utm_campaign=advocacy',
+    'article-2__link': 'https://caseytrees.org/2020/11/magical-maples/?utm_source=leaflet&utm_medium=email&utm_campaign=riversmarthomes',
     'article-2__alt-text': '',
-    'article-2__image-browser': 'https://caseytrees.org/wp-content/uploads/2020/11/AITD-browser.png',
-    'article-2__image-mobile': 'https://caseytrees.org/wp-content/uploads/2020/10/AITD-email.png',
-    'article-2__heading': 'Don’t Keep this to Yourself, Advocacy Starts with Sharing',
-    'article-2__description': 'Perhaps you have a vocal email chain or Twitter friend? Send them to our upcoming Advocacy in the District class!',
-    'article-3__link': 'https://caseytrees.org/2020/11/important-changes-to-dc-leaf-collection/?utm_source=leaflet&utm_medium=email&utm_campaign=citypartner',
+    'article-2__image-browser': 'https://caseytrees.org/wp-content/uploads/2020/11/maples-browser-1.png',
+    'article-2__image-mobile': 'https://caseytrees.org/wp-content/uploads/2020/10/maples-email.png',
+    'article-2__heading': 'Magical Maples',
+    'article-2__description': 'True stunners of Autumn.',
+    'article-3__link': 'https://caseytrees.org/2020/11/five-witness-trees-for-veterans-day-2/?utm_source=leaflet&utm_medium=email&utm_campaign=nationalholiday',
     'article-3__alt-text': '',
-    'article-3__image-browser': 'https://caseytrees.org/wp-content/uploads/2020/11/leaf-collection-browser.png',
-    'article-3__image-mobile': 'https://caseytrees.org/wp-content/uploads/2020/10/leaf-collection-email.png',
-    'article-3__heading': 'Important Changes to DC Leaf Collection',
-    'article-3__description': 'DPW is now asking residents to use paper bags, and not rake leaves into tree boxes.',
-    'banner__link': 'https://caseytrees.maps.arcgis.com/apps/webappviewer/index.html?id=c7c2a30d5c95440b8316b12c7add426d',
-    'banner_text': 'DONATE TODAY',
-    'banner__image-browser': 'https://caseytrees.org/wp-content/uploads/2020/10/Leaflet-ad_fall-color-map.png',
-    'banner__image-responsive': 'https://caseytrees.org/wp-content/uploads/2020/10/Leaflet-ad_fall-color-map-mobile.png',
+    'article-3__image-browser': 'https://caseytrees.org/wp-content/uploads/2020/11/witness-trees-browser.png',
+    'article-3__image-mobile': 'https://caseytrees.org/wp-content/uploads/2020/11/witness-trees-email.png',
+    'article-3__heading': 'Five Witness Trees for Veteran’s Day',
+    'article-3__description': 'Witness trees are those considered to have been present, and therefore would have been witness to, at key historical events.',
+    'banner__link': 'https://caseytrees.org/education/urban-forestry-fellowship/',
+    # banner_text if the delimited is 10-26-2020
+    # banner_image if the delimited is 08-10-2020
+    'banner_text': 'DONATE TODAY', 
+    'banner__image-browser': 'https://caseytrees.org/wp-content/uploads/2020/11/Leaflet-ad_gca.png',
+    'banner__image-responsive': 'https://caseytrees.org/wp-content/uploads/2020/11/Leaflet-ad_gca-mobile.png',
     'banner__alt-text': '',
 }
 
-NVP = NVP_20201102
+NVP = NVP_20201109
 #
 
 

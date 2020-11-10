@@ -31,7 +31,7 @@ NVP_20201109 = {
     'banner_text': 'DONATE TODAY', 
     'banner__image-browser': 'https://caseytrees.org/wp-content/uploads/2020/11/Leaflet-ad_gca.png',
     'banner__image-responsive': 'https://caseytrees.org/wp-content/uploads/2020/11/Leaflet-ad_gca-mobile.png',
-    'banner__alt-text': '',
+    'banner__alt-text': 'Register Now for the Urban Foresrty Grant',
 }
 
 NVP = NVP_20201109

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <link
+      target="__blank"
       href="https://fonts.googleapis.com/css?family=Lato"
       rel="stylesheet"
       type="text/css"
@@ -33,12 +34,12 @@
         h1,
         p,
         a {
-          text-align: center;
           padding: 0 !important;
           margin: 0 !important;
         }
         tr,
         td {
+          text-align: center;
           display: block !important;
           width: 96% !important;
         }
@@ -62,22 +63,25 @@
           display: block !important;
           align-items: center;
         }
+        .button-img__responsive {
+          width: 598px !important;
+        }
         .article-1__title {
-          font-size: 30px !important;
+          font-size: 46px !important;
         }
         .article-1__subtitle {
-          font-size: 26px !important;
-          padding-top: 16px !important;
+          font-size: 40px !important;
+          padding-top: 24px !important;
         }
         .article-2__title,
         .article-3__title {
           padding: 5px 0 !important;
-          font-size: 26px !important;
+          font-size: 38px !important;
         }
         .article-2__subtitle,
         .article-3__subtitle {
           padding: 5px 0 !important;
-          font-size: 22px !important;
+          font-size: 34px !important;
         }
       }
     </style>
@@ -125,6 +129,7 @@
                         Email not displaying correctly?
                         <a
                           style="color: rgb(80, 80, 80); text-decoration: none;"
+                          target="__blank"
                           href="%%view_online%%"
                           >View Online.</a
                         >
@@ -187,7 +192,7 @@
                 >
                   <tr align="center">
                     <td align="center" width="50%">
-                      <a href="%%article-1__link%%">
+                      <a target="__blank" href="%%article-1__link%%">
                         <img
                           class="img__browser"
                           src="%%article-1__image-browser%%"
@@ -210,20 +215,21 @@
                       <table>
                         <tr>
                           <td width="100%">
-                            <a href="%%article-1__link%%"
-                              ><p
-                                class="article-1__title"
-                                style="
-                                  font-family: Lato, Helvetica, Arial,
-                                    sans-serif;
-                                  font-size: 20px;
-                                  line-height: 1.3;
-                                  font-weight: bold;
-                                "
-                              >
-                                %%article-1__heading%%
-                              </p></a
+                            <a
+                              class="article-1__title"
+                              style="
+                                text-decoration: none;
+                                color: rgb(203, 138, 75);
+                                font-family: Lato, Helvetica, Arial, sans-serif;
+                                font-size: 20px;
+                                line-height: 1.3;
+                                font-weight: bold;
+                              "
+                              target="__blank"
+                              href="%%article-1__link%%"
                             >
+                              %%article-1__heading%%
+                            </a>
                           </td>
                         </tr>
                         <tr>
@@ -231,6 +237,7 @@
                             <p
                               class="article-1__subtitle"
                               style="
+                                color: rgb(80, 80, 80);
                                 font-family: Lato, Helvetica, Arial, sans-serif;
                                 font-size: 18px;
                                 line-height: 1.1;
@@ -248,91 +255,29 @@
             </tr>
             <!-- // End Module: ARTICLE #1 \\ -->
 
-            <!-- // Begin Module: Buttons Container\ -->
+            <!-- // Begin Module: banner-a Alert\ -->
             <tr>
-              <td align="center">
-                <table border="0" cellpadding="5" cellspacing="0">
-                  <tr>
-                    <!-- // Begin Module: LEFT BUTTON\ -->
-                    <td align="center" valign="middle">
-                      <div>
-                        <!--[if mso]>
-                          <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="%%button-1__link%%" style="font-size:20px;height:80px;v-text-anchor:middle;width:296px;" arcsize="7%" stroke="f" fillcolor="#2b653a">
-                            <w:anchorlock/>
-                            <center>
-                          <![endif]-->
-                        <a
-                          class="green-buttons"
-                          href="%%button-1__link%%"
-                          style="
-                            background-color: #2b653a;
-                            border-radius: 5px;
-                            color: #ffffff;
-                            display: inline-block;
-                            font-family: 'Lato', Helvetica, sans-serif;
-                            font-size: 20px;
-                            font-weight: bold;
-                            line-height: 80px;
-                            text-align: center;
-                            text-decoration: none;
-                            width: 296px;
-                            -webkit-text-size-adjust: none;
-                          "
-                          >%%button-1__text%%</a
-                        >
-                        <!--[if mso]>
-                            </center>
-                          </v:roundrect>
-                        <![endif]-->
-                      </div>
-                    </td>
-                    <!-- // End Module: LEFT BUTTON\ -->
-
-                    <!-- // Begin Module: RIGHT BUTTON\ -->
-                    <td align="center" valign="middle"></td>
-                    <td align="center" valign="middle">
-                      <div>
-                        <!--[if mso]>
-                            <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="%%button-2__link%%" style="font-size:20px;height:80px;v-text-anchor:middle;width:296px;" arcsize="7%" stroke="f" fillcolor="#2b653a">
-                              <w:anchorlock/>
-                              <center>
-                            <![endif]-->
-                        <a
-                          class="green-buttons"
-                          href="%%button-2__link%%"
-                          style="
-                            background-color: #2b653a;
-                            border-radius: 5px;
-                            color: #ffffff;
-                            display: inline-block;
-                            font-family: 'Lato', Helvetica, sans-serif;
-                            font-size: 20px;
-                            font-weight: bold;
-                            line-height: 80px;
-                            text-align: center;
-                            text-decoration: none;
-                            width: 296px;
-                            -webkit-text-size-adjust: none;
-                          "
-                          >%%button-2__text%%</a
-                        >
-                        <!--[if mso]>
-                              </center>
-                            </v:roundrect>
-                          <![endif]-->
-                      </div>
-                    </td>
-                    <!-- // End Module: RIGHT BUTTON\ -->
-                  </tr>
-                </table>
-
-                <!--[if mso]>
-                            </center>
-                          </v:roundrect>
-                        <![endif]-->
+              <td align="center" valign="top">
+                <div>
+                  <a target="__blank" href="%%banner-a__link%%"
+                    ><img
+                      class="img__browser"
+                      style="border-radius: 10px;"
+                      src="%%banner-a__image-browser%%"
+                      alt="%%banner-a__alt-text%%"
+                      width="598" />
+                    <div style="display: none;" class="img__responsive">
+                      <img
+                        width="598"
+                        style="border-radius: 10px;"
+                        src="%%banner-a__image-responsive%%"
+                        alt="%%banner-a__alt-text%%"
+                      /></div
+                  ></a>
+                </div>
               </td>
             </tr>
-            <!-- // End Module: Buttons Container\ -->
+            <!-- // End Module: banner-a Alert \ -->
 
             <!-- // Begin Module: ARTICLE #2\ -->
             <tr>
@@ -346,7 +291,7 @@
                 >
                   <tr>
                     <td width="50%" align="center">
-                      <a href="%%article-2__link%%">
+                      <a target="__blank" href="%%article-2__link%%">
                         <img
                           class="img__browser"
                           src="%%article-2__image-browser%%"
@@ -366,20 +311,21 @@
                       <table align="center">
                         <tr>
                           <td>
-                            <a href="%%article-2__link%%">
-                              <p
-                                class="article-2__title"
-                                style="
-                                  color: rgb(80, 80, 80);
-                                  font-family: Lato, Helvetica, Arial,
-                                    sans-serif;
-                                  font-size: 18px;
-                                  font-weight: bold;
-                                "
-                              >
-                                %%article-2__heading%%
-                              </p></a
+                            <a
+                              class="article-2__title"
+                              style="
+                                text-decoration: none;
+                                color: rgb(203, 138, 75);
+                                font-family: Lato, Helvetica, Arial, sans-serif;
+                                font-size: 20px;
+                                line-height: 1.3;
+                                font-weight: bold;
+                              "
+                              target="__blank"
+                              href="%%article-2__link%%"
                             >
+                              %%article-2__heading%%
+                            </a>
                           </td>
                         </tr>
                         <tr>
@@ -417,7 +363,7 @@
                 >
                   <tr>
                     <td width="50%" align="center">
-                      <a href="%%article-3__link%%">
+                      <a target="__blank" href="%%article-3__link%%">
                         <img
                           class="img__browser"
                           src="%%article-3__image-browser%%"
@@ -437,27 +383,29 @@
                       <table align="center">
                         <tr>
                           <td>
-                            <a href="%%article-3__link%%"
-                              ><p
-                                class="article-3__title"
-                                style="
-                                  color: rgb(80, 80, 80);
-                                  font-family: Lato, Helvetica, Arial,
-                                    sans-serif;
-                                  font-size: 18px;
-                                  font-weight: bold;
-                                "
-                              >
-                                %%article-3__heading%%
-                              </p></a
+                            <a
+                              class="article-2__title"
+                              style="
+                                text-decoration: none;
+                                color: rgb(203, 138, 75);
+                                font-family: Lato, Helvetica, Arial, sans-serif;
+                                font-size: 20px;
+                                line-height: 1.3;
+                                font-weight: bold;
+                              "
+                              target="__blank"
+                              href="%%article-3__link%%"
                             >
+                              %%article-3__heading%%
+                            </a>
                           </td>
                         </tr>
                         <tr>
                           <td>
                             <p
-                              class="article-3__subtitle"
+                              class="article-2__subtitle"
                               style="
+                                color: rgb(80, 80, 80);
                                 font-family: Lato, Helvetica, Arial, sans-serif;
                                 font-size: 16px;
                                 line-height: 1.1;
@@ -473,51 +421,39 @@
                 </table>
               </td>
             </tr>
-            <!-- // End Module: ARTICLE #2\ -->
+            <!-- // End Module: ARTICLE #3\ -->
 
-            <!-- // Begin Module: DONATE BUTTON\ -->
+            <!-- // Begin Module: Banner Ad\ -->
             <tr>
               <td align="center" valign="top">
                 <div>
-                  <!--[if mso]>
-                    <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://caseytrees.org/give/evergreen-membership-donation-form/" style="font-size:24px;height:70px;v-text-anchor:middle;width:596px;" arcsize="6%" stroke="f" fillcolor="#cb8a4b">
-                      <w:anchorlock/>
-                      <center>
-                    <![endif]-->
-                  <a
-                    href="%%button-3__link%%"
-                    style="
-                      background-color: #cb8a4b;
-                      border-radius: 4px;
-                      color: #ffffff;
-                      display: inline-block;
-                      font-family: Lato, Helvetica, sans-serif;
-                      font-size: 24px;
-                      font-weight: bold;
-                      line-height: 70px;
-                      text-align: center;
-                      text-decoration: none;
-                      width: 596px;
-                      -webkit-text-size-adjust: none;
-                    "
-                    >%%button-3__text%%</a
-                  >
-                  <!--[if mso]>
-                      </center>
-                    </v:roundrect>
-                  <![endif]-->
+                  <a target="__blank" href="%%banner__link%%"
+                    ><img
+                      class="img__browser"
+                      style="border-radius: 10px;"
+                      src="%%banner__image-browser%%"
+                      alt="%%banner__alt-text%%"
+                      width="598" />
+                    <div style="display: none;" class="img__responsive">
+                      <img
+                        width="598"
+                        style="border-radius: 10px;"
+                        src="%%banner__image-responsive%%"
+                        alt="%%banner__alt-text%%"
+                      /></div
+                  ></a>
                 </div>
               </td>
             </tr>
-            <!-- // End Module: DONATE BUTTON\ -->
+            <!-- // End Module: BAnner AD \ -->
 
             <!-- // Begin Module: LOGO\ -->
             <tr cellpadding="0">
               <td cellpadding="0" align="center">
-                <a href="https://caseytrees.org/"
+                <a target="__blank" href="https://caseytrees.org/"
                   ><img
                     width="138"
-                    src="https://caseytrees.org/wp-content/uploads/2019/01/black-tree-logo.png"
+                    src="https://caseytrees.org/wp-content/uploads/2020/08/warn-black_Tree-logo_emails.png"
                 /></a>
               </td>
             </tr>
@@ -528,6 +464,7 @@
               <td style="text-align: center; padding: 10px;" valign="top">
                 <p>
                   <a
+                    target="__blank"
                     href="http://www.facebook.com/pages/Casey-Trees/58793928339"
                     ><img
                       alt=""
@@ -535,25 +472,31 @@
                       src="https://caseytrees.org/wp-content/uploads/2018/11/facebook-logo13259.png"
                       width="35" /></a
                   >&nbsp;&nbsp;
-                  <a href="http://twitter.com/caseytrees"
+                  <a target="__blank" href="http://twitter.com/caseytrees"
                     ><img
                       alt=""
                       height="35"
                       src="https://caseytrees.org/wp-content/uploads/2018/11/twitter-logo.png"
                       width="35" /></a
-                  >&nbsp;&nbsp;<a href="http://instagram.com/CaseyTrees"
+                  >&nbsp;&nbsp;<a
+                    target="__blank"
+                    href="http://instagram.com/CaseyTrees"
                     ><img
                       alt=""
                       height="35"
                       src="https://caseytrees.org/wp-content/uploads/2018/11/instagram-logo.png"
                       width="35" /></a
-                  >&nbsp;&nbsp;<a href="http://flickr.com/photos/caseytrees"
+                  >&nbsp;&nbsp;<a
+                    target="__blank"
+                    href="http://flickr.com/photos/caseytrees"
                     ><img
                       alt=""
                       height="35"
                       src="https://caseytrees.org/wp-content/uploads/2018/11/flickr-logo.png"
                       width="35" /></a
-                  >&nbsp;&nbsp;<a href="http://www.youtube.com/caseytrees"
+                  >&nbsp;&nbsp;<a
+                    target="__blank"
+                    href="http://www.youtube.com/caseytrees"
                     ><img
                       alt=""
                       height="35"
@@ -586,6 +529,7 @@
                     text-decoration: none;
                     font-family: Lato, Helvetica, Arial, sans-serif;
                   "
+                  target="__blank"
                   href="%%email_preference_center%%"
                 >
                   update subscription preferences
@@ -597,6 +541,7 @@
                     text-decoration: none;
                     font-family: Lato, Helvetica, Arial, sans-serif;
                   "
+                  target="__blank"
                   href="%%unsubscribe%%"
                 >
                   unsubscribe from all emails

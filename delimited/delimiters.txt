@@ -1,3 +1,7 @@
+EOY 2020
+
+
+
 Summer 2020
 %%preheader%%
 %%article-1__link%%
@@ -6,10 +10,12 @@ Summer 2020
 %%article-1__image-mobile%%
 %%article-1__heading%%
 %%article-1__description%%
-%%watering__link%%
-%%watering__image-browser%%
-%%watering__image-responsive%%
-%%watering__alt-text%%
+%%banner-a__link%%
+%%banner-a__text-1%%
+%%banner-a__text-2%%
+%%banner-a__image-browser%%
+%%banner-a__image-responsive%%
+%%banner-a__alt-text%%
 %%article-2__link%%
 %%article-2__alt-text%%
 %%article-2__image-browser%%
@@ -22,10 +28,11 @@ Summer 2020
 %%article-3__image-mobile%%
 %%article-3__heading%%
 %%article-3__description%%
-%%banner__link%%
-%%banner__image-browser%%
-%%banner__image-responsive%%
-%%banner__alt-text%%
+%%banner-b__link%%
+%%banner-b__text%%
+%%banner-b__image-browser%%
+%%banner-b__image-responsive%%
+%%banner-b__alt-text%%
 
 2020
 %%preheader%%

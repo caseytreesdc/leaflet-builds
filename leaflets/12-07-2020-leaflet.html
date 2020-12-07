@@ -26,9 +26,6 @@
         mso-table-rspace: 0pt;
       } /* Remove spacing between tables in Outlook 2007 and up */
       @media screen and (max-width: 525px) {
-        html {
-          width: 100vw !important;
-        }
         .enclosing-table {
           background: rgb(255, 255, 255) !important;
         }
@@ -42,10 +39,10 @@
         td {
           text-align: center;
           display: block !important;
-          width: 96% !important;
+          width: 98% !important;
         }
         .email-container {
-          max-width: 96% !important;
+          max-width: 100% !important;
         }
         .title {
           font-size: 80px !important;
@@ -70,10 +67,10 @@
         .banner-a-div {
           width: 90% !important;
           margin: 0 0 !important;
+          padding: 30px !important;
         }
         .banner-a-text {
-          padding: 20px !important;
-          font-size: 22px !important;
+          font-size: 32px !important;
         }
         .banner-a-span {
           border-radius: 100px !important;
@@ -95,8 +92,10 @@
           padding: 5px 0 !important;
           font-size: 34px !important;
         }
-        .button_text {
-          font-size: 40px !important;
+      }
+      @media (prefers-color-scheme: dark) {
+        .banner-a-div {
+          background: #000000;
         }
       }
     </style>
@@ -104,11 +103,12 @@
   <body>
     <!-- // preheader email text \\ -->
     <div style="display: none; max-height: 0px; overflow: hidden">
-      and how to treat common tree issues
+      and tips on regenerative pruning
       &nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;
     </div>
     <!-- // Begin Module: Outer most table of body \\ -->
     <table
+      style="border-collapse: collapse"
       class="enclosing-table"
       border="0"
       cellpadding="0"
@@ -120,6 +120,7 @@
         <td align="center">
           <!-- // Begin Module: Email document that is a width of 600px \\ -->
           <table
+            style="border-collapse: collapse"
             class="email-container"
             border="0"
             cellpadding="20"
@@ -130,42 +131,36 @@
             <!-- // Begin Module: TITLE HEADER\ -->
             <tr>
               <td valign="top">
-                <table border="0" cellpadding="25" cellspacing="0" width="100%">
-                  <tr>
-                    <td>
-                      <h1
-                        class="title"
-                        style="
-                          margin: 0 0 0 0;
-                          font-family: sans-serif;
-                          font-size: 60px;
-                          letter-spacing: 4px;
-                          color: rgb(0, 0, 0);
-                          text-align: center;
-                        "
-                      >
-                        <span style="color: rgba(0, 0, 0, 0.5)">THE</span
-                        >LEAFLET
-                      </h1>
-                      <p
-                        class="subtitle"
-                        style="
-                          font-weight: 520;
-                          margin: 0 0 0 0;
-                          font-family: sans-serif;
-                          font-size: 16px;
-                          color: rgba(0, 0, 0);
-                          letter-spacing: 6px;
-                          text-align: center;
-                        "
-                      >
-                        A CASEY TREES NEWSLETTER
-                      </p>
-                    </td>
-                  </tr>
-                </table>
+                <h1
+                  class="title"
+                  style="
+                    margin: 0 0 0 0;
+                    font-family: sans-serif;
+                    font-size: 60px;
+                    letter-spacing: 4px;
+                    color: rgb(0, 0, 0);
+                    text-align: center;
+                  "
+                >
+                  <span style="color: rgba(0, 0, 0, 0.5)">THE</span>LEAFLET
+                </h1>
+                <p
+                  class="subtitle"
+                  style="
+                    font-weight: 520;
+                    margin: 0 0 0 0;
+                    font-family: sans-serif;
+                    font-size: 16px;
+                    color: rgba(0, 0, 0);
+                    letter-spacing: 6px;
+                    text-align: center;
+                  "
+                >
+                  A CASEY TREES NEWSLETTER
+                </p>
               </td>
             </tr>
+
             <!-- // End Module: TITLE HEADER \\ -->
 
             <!-- // Begin Module: ARTICLE #1, left picture with right text\ -->
@@ -175,20 +170,25 @@
                   border="0"
                   cellpadding="0"
                   cellspacing="0"
-                  style="background-color: #ffffff"
+                  style="background-color: #ffffff; border-collapse: collapse"
                 >
                   <tr>
                     <td width="50%">
-                      <a target="__blank" href="https://caseytrees.org/2020/12/we-made-it-through-2020-a-gift-guide/?utm_source=leaflet&utm_medium=email&utm_campaign=eoy">
+                      <a
+                        target="__blank"
+                        href="https://caseytrees.org/2020/12/we-made-it-through-2020-a-gift-guide/?utm_source=leaflet&utm_medium=email&utm_campaign=eoy"
+                      >
                         <img
+                          width="300"
                           class="img__browser"
-                          src="https://i.pinimg.com/originals/7c/50/ba/7c50ba64daf30ee45358376bc454fb89.gif"
+                          src="https://caseytrees.org/wp-content/uploads/2020/12/Gift-Guide-Leaflet-Preview.gif"
                           style="display: block; border-radius: 10px"
                           alt=""
                         />
                         <div class="img__responsive" style="display: none">
                           <img
-                            src="https://i.pinimg.com/originals/b3/78/0a/b3780a110a6b672a2373a6e066f89f3d.gif"
+                            width="500"
+                            src="https://caseytrees.org/wp-content/uploads/2020/12/Gift-Guide-Leaflet-Preview.gif"
                             style="border-radius: 10px"
                             alt=""
                           />
@@ -199,7 +199,7 @@
                       valign="top"
                       style="color:#505050; font-family: Lato, Helvetica, Arial, sans-serif; font-size:12px; line-height:100%; padding-top:10px; padding-right;10px; padding-bottom:10px; padding-left:10px;"
                     >
-                      <table>
+                      <table style="border-collapse: collapse">
                         <tr>
                           <td width="100%">
                             <a
@@ -232,7 +232,8 @@
                                 line-height: 1.1;
                               "
                             >
-                              What a year folks! Let’s treat each other - the simple things are often best
+                              What a year folks! Let’s treat each other - the
+                              simple things are often best
                             </p>
                           </td>
                         </tr>
@@ -244,50 +245,71 @@
             </tr>
             <!-- // End Module: ARTICLE #1 \\ -->
 
-            <!-- // Begin Module: Text Banner A \ -->
+            <!-- // Begin Module: Banner B \ -->
             <tr align="center">
               <td>
                 <a
                   style="
                     text-decoration: none;
-                    color: #e0c859;
+                    color: #ffffff;
                     font-family: Lato, Helvetica, Arial, sans-serif;
                     font-size: 18px;
-                    line-height: 1.1;
                   "
                   target="__blank"
-                  href="https://caseytreesdc.github.io/quiz-eoy_2020"
+                  href="https://www.washingtonpost.com/local/dc-ward-8-parks-cleanup/2020/12/05/1d34f078-260f-11eb-8672-c281c7a2c96e_story.html"
                 >
                   <div
                     class="banner-a-div"
                     style="background: #000000; border-radius: 10px"
                   >
-                    <table width="100%" align="center">
+                    <table
+                      style="border-collapse: collapse"
+                      width="100%"
+                      align="center"
+                    >
                       <tr>
-                        <td>
-                          <p
-                            class="banner-a-text"
+                        <p
+                          class="banner-a-text"
+                          style="
+                            margin: 0;
+                            padding: 9px 0 0 0;
+                            text-align: center;
+                            color: #ffffff;
+                          "
+                        >
+                          DC partners in <i>The Washington Post</i>
+                        </p>
+                      </tr>
+                      <tr>
+                        <p
+                          class="banner-a-text"
+                          style="margin: 0; padding: 12px 0 18px 0"
+                        >
+                          <span
+                            class="banner-a-span"
                             style="
-                              letter-spacing: 3px;
-                              margin: 26px 0;
-                              text-align: center;
+                              font-weight: bold;
+                              font-style: normal;
+                              padding: 6px 15px;
+                              border-radius: 20px;
+                              background: rgba(255, 255, 255, 0.8);
+                              color: #000000; ;
                             "
+                            >A FIGHT FOR FOREST EQUITY</span
                           >
-                            MAKE A YEAR-END GIFT
-                          </p>
-                        </td>
+                        </p>
                       </tr>
                     </table>
                   </div>
                 </a>
               </td>
             </tr>
-            <!-- // End Module: Text Banner A \ -->
-
+            <!-- // End Module: Banner B \ -->
             <!-- // Begin Module: ARTICLE #2\ -->
             <tr>
               <td>
                 <table
+                  style="border-collapse: collapse"
                   border="0"
                   cellpadding="0"
                   cellspacing="0"
@@ -295,16 +317,21 @@
                 >
                   <tr>
                     <td align="center" width="50%">
-                      <a target="__blank" href="https://caseytrees.org/2020/12/dont-panic-common-tree-issues-and-how-to-treat-them-2/?utm_source=leaflet&utm_medium=email&utm_campaign=feeforservice">
+                      <a
+                        target="__blank"
+                        href="https://caseytrees.org/2020/12/from-the-archives-pruning-tips/?utm_source=leaflet&utm_medium=email&utm_campaign=feeforservice"
+                      >
                         <img
+                          width="180"
                           class="img__browser"
-                          src="https://caseytrees.org/wp-content/uploads/2020/12/tree-issue-rust-browser.png"
+                          src="https://caseytrees.org/wp-content/uploads/2020/12/tree-pruning-email.png"
                           style="display: block; border-radius: 10px"
                           alt=""
                         />
                         <div class="img__responsive" style="display: none">
                           <img
-                            src="https://caseytrees.org/wp-content/uploads/2020/11/tree-issue-rust-email.png"
+                            width="480"
+                            src="https://caseytrees.org/wp-content/uploads/2020/12/tree-pruning-email.png"
                             style="border-radius: 10px"
                             alt=""
                           />
@@ -326,10 +353,10 @@
                                 font-weight: bold;
                               "
                               target="__blank"
-                              href="https://caseytrees.org/2020/12/dont-panic-common-tree-issues-and-how-to-treat-them-2/?utm_source=leaflet&utm_medium=email&utm_campaign=feeforservice
+                              href="https://caseytrees.org/2020/12/from-the-archives-pruning-tips/?utm_source=leaflet&utm_medium=email&utm_campaign=feeforservice
                               "
                             >
-                              Don’t Panic! Common Tree Issues and How to Treat Them
+                              From the Archives: Pruning Tips
                             </a>
                           </td>
                         </tr>
@@ -345,7 +372,8 @@
                                 line-height: 1.1;
                               "
                             >
-                              We provide residential tree consultations through our Fee for Service program
+                              Tips on how to prune trees yourself, or who you
+                              call if you don’t
                             </p>
                           </td>
                         </tr>
@@ -368,15 +396,20 @@
                 >
                   <tr>
                     <td align="center" width="50%">
-                      <a target="__blank" href="https://caseytrees.org/2020/12/preserving-the-rich-agricultural-and-cultural-legacy-of-the-casey-tree-farm-2/?utm_source=leaflet&utm_medium=email&utm_campaign=caseytreefarm">
+                      <a
+                        target="__blank"
+                        href="https://caseytrees.org/2020/12/preserving-the-rich-agricultural-and-cultural-legacy-of-the-casey-tree-farm-2/?utm_source=leaflet&utm_medium=email&utm_campaign=caseytreefarm"
+                      >
                         <img
+                          width="180"
                           class="img__browser"
-                          src="https://caseytrees.org/wp-content/uploads/2020/08/farm-rebate-browser.png"
+                          src="https://caseytrees.org/wp-content/uploads/2020/08/farm-rebate-email.png"
                           style="display: block; border-radius: 10px"
                           alt=""
                         />
                         <div class="img__responsive" style="display: none">
                           <img
+                            width="480"
                             src="https://caseytrees.org/wp-content/uploads/2020/08/farm-rebate-email.png"
                             style="border-radius: 10px"
                             alt=""
@@ -401,7 +434,8 @@
                               target="__blank"
                               href="https://caseytrees.org/2020/12/preserving-the-rich-agricultural-and-cultural-legacy-of-the-casey-tree-farm-2/?utm_source=leaflet&utm_medium=email&utm_campaign=caseytreefarm"
                             >
-                              Preserving the Rich Agricultural and Cultural Legacy of the Casey Tree Farm
+                              Preserving the Rich Agricultural and Cultural
+                              Legacy of the Casey Tree Farm
                             </a>
                           </td>
                         </tr>
@@ -417,7 +451,9 @@
                                 line-height: 1.1;
                               "
                             >
-                              How our Farm, located on the banks of the Shenandoah River, cultivates 100 acres of land sustainably. And how you can help!
+                              How our Farm, located on the banks of the
+                              Shenandoah River, cultivates 100 acres of land
+                              sustainably. And how you can help!
                             </p>
                           </td>
                         </tr>
@@ -429,29 +465,53 @@
             </tr>
             <!-- // End Module: ARTICLE #3\ -->
 
-            <!-- // Begin Module: IMAGE Banner Ad\ -->
+            <!-- // Begin Module: Text Banner A \ -->
             <tr>
-              <td valign="top">
-                <div>
-                  <a target="__blank" href="https://casey-trees-dc.square.site/product/face-mask-dc-outline/88?cs=true?utm_source%3DLeaflet&trk=eoy5&utm_campaign=eoy&utm_content=email5&utm_medium=email"
-                    ><img
-                      class="img__browser"
-                      style="border-radius: 10px"
-                      src="https://caseytrees.org/wp-content/uploads/2020/08/Mask_Ad_1.png"
-                      alt="Protect Others. Protect Yourself. Protect Our Urban Forest. Link to masks on our online store."
-                      width="598" />
-                    <div style="display: none" class="img__responsive">
-                      <img
-                        width="598"
-                        style="border-radius: 10px"
-                        src="https://caseytrees.org/wp-content/uploads/2020/08/MaskAd2-responsive.png"
-                        alt="Protect Others. Protect Yourself. Protect Our Urban Forest. Link to masks on our online store."
-                      /></div
-                  ></a>
-                </div>
+              <td align="center">
+                <a
+                  style="
+                    text-decoration: none;
+                    color: #e0c859;
+                    font-family: Lato, Helvetica, Arial, sans-serif;
+                    font-size: 18px;
+                    line-height: 1.1;
+                  "
+                  target="__blank"
+                  href="https://connect.clickandpledge.com/w/Form/2ab97890-387e-4b10-a454-6ab08350e1b8?utm_source=leaflet&utm_medium=email&utm_campaign=eoy&utm_content=email8&trk=eoy5"
+                >
+                  <div
+                    class="banner-a-div"
+                    style="
+                      background: #000000;
+                      border-radius: 10px;
+                      margin: 0 auto;
+                    "
+                  >
+                    <table
+                      style="border-collapse: collapse"
+                      width="100%"
+                      align="center"
+                    >
+                      <tr>
+                        <td>
+                          <p
+                            class="banner-a-text"
+                            style="
+                              letter-spacing: 3px;
+                              margin: 26px 0;
+                              text-align: center;
+                            "
+                          >
+                            MAKE A YEAR-END GIFT
+                          </p>
+                        </td>
+                      </tr>
+                    </table>
+                  </div>
+                </a>
               </td>
             </tr>
-            <!-- // End Module: IMAGE Banner AD \ -->
+            <!-- // End Module: Text Banner A \ -->
             <!-- // Begin Module: LOGO\ -->
             <tr cellpadding="0">
               <td cellpadding="0" align="center">
@@ -506,7 +566,13 @@
             <!-- // Begin Module: view online header \\ -->
             <tr>
               <td>
-                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                <table
+                  style="border-collapse: collapse"
+                  border="0"
+                  cellpadding="0"
+                  cellspacing="0"
+                  width="100%"
+                >
                   <tr>
                     <td align="center">
                       <p

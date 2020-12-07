@@ -26,9 +26,6 @@
         mso-table-rspace: 0pt;
       } /* Remove spacing between tables in Outlook 2007 and up */
       @media screen and (max-width: 525px) {
-        html {
-          width: 100vw !important;
-        }
         .enclosing-table {
           background: rgb(255, 255, 255) !important;
         }
@@ -42,10 +39,10 @@
         td {
           text-align: center;
           display: block !important;
-          width: 96% !important;
+          width: 98% !important;
         }
         .email-container {
-          max-width: 96% !important;
+          max-width: 100% !important;
         }
         .title {
           font-size: 80px !important;
@@ -69,11 +66,11 @@
         }
         .banner-a-div {
           width: 90% !important;
-          margin: 0 0;
+          margin: 0 0 !important;
+          padding: 30px !important;
         }
         .banner-a-text {
-          padding: 20px !important;
-          font-size: 30px !important;
+          font-size: 28px !important;
         }
         .banner-a-span {
           border-radius: 100px !important;
@@ -95,9 +92,6 @@
           padding: 5px 0 !important;
           font-size: 34px !important;
         }
-        .button_text {
-          font-size: 40px !important;
-        }
       }
     </style>
   </head>
@@ -109,21 +103,19 @@
     </div>
     <!-- // Begin Module: Outer most table of body \\ -->
     <table
+      style="border-collapse: collapse"
       class="enclosing-table"
       border="0"
       cellpadding="0"
       cellspacing="0"
       height="100%"
       width="100%"
-      style="
-        background: url(https://caseytrees.org/wp-content/uploads/2020/11/v2_graph.png);
-        background-size: 80em;
-      "
     >
       <tr>
         <td align="center">
           <!-- // Begin Module: Email document that is a width of 600px \\ -->
           <table
+            style="border-collapse: collapse"
             class="email-container"
             border="0"
             cellpadding="20"
@@ -134,42 +126,36 @@
             <!-- // Begin Module: TITLE HEADER\ -->
             <tr>
               <td valign="top">
-                <table border="0" cellpadding="25" cellspacing="0" width="100%">
-                  <tr>
-                    <td>
-                      <h1
-                        class="title"
-                        style="
-                          margin: 0 0 0 0;
-                          font-family: sans-serif;
-                          font-size: 60px;
-                          letter-spacing: 4px;
-                          color: rgb(0, 0, 0);
-                          text-align: center;
-                        "
-                      >
-                        <span style="color: rgba(0, 0, 0, 0.5)">THE</span
-                        >LEAFLET
-                      </h1>
-                      <p
-                        class="subtitle"
-                        style="
-                          font-weight: 520;
-                          margin: 0 0 0 0;
-                          font-family: sans-serif;
-                          font-size: 16px;
-                          color: rgba(0, 0, 0);
-                          letter-spacing: 6px;
-                          text-align: center;
-                        "
-                      >
-                        A CASEY TREES NEWSLETTER
-                      </p>
-                    </td>
-                  </tr>
-                </table>
+                <h1
+                  class="title"
+                  style="
+                    margin: 0 0 0 0;
+                    font-family: sans-serif;
+                    font-size: 60px;
+                    letter-spacing: 4px;
+                    color: rgb(0, 0, 0);
+                    text-align: center;
+                  "
+                >
+                  <span style="color: rgba(0, 0, 0, 0.5)">THE</span>LEAFLET
+                </h1>
+                <p
+                  class="subtitle"
+                  style="
+                    font-weight: 520;
+                    margin: 0 0 0 0;
+                    font-family: sans-serif;
+                    font-size: 16px;
+                    color: rgba(0, 0, 0);
+                    letter-spacing: 6px;
+                    text-align: center;
+                  "
+                >
+                  A CASEY TREES NEWSLETTER
+                </p>
               </td>
             </tr>
+
             <!-- // End Module: TITLE HEADER \\ -->
 
             <!-- // Begin Module: ARTICLE #1, left picture with right text\ -->
@@ -179,22 +165,24 @@
                   border="0"
                   cellpadding="0"
                   cellspacing="0"
-                  style="background-color: #ffffff"
+                  style="background-color: #ffffff; border-collapse: collapse"
                 >
                   <tr>
                     <td width="50%">
                       <a target="__blank" href="%%article-1__link%%">
                         <img
+                          width="300"
                           class="img__browser"
-                          src="%%article-1__image-browser%%"
+                          src="%%article-1__image%%"
                           style="display: block; border-radius: 10px"
-                          alt=""
+                          alt="%%article-1__alt-text%%"
                         />
                         <div class="img__responsive" style="display: none">
                           <img
-                            src="%%article-1__image-mobile%%"
+                            width="500"
+                            src="%%article-1__image%%"
                             style="border-radius: 10px"
-                            alt=""
+                            alt="%%article-1__alt-text%%"
                           />
                         </div>
                       </a>
@@ -203,7 +191,7 @@
                       valign="top"
                       style="color:#505050; font-family: Lato, Helvetica, Arial, sans-serif; font-size:12px; line-height:100%; padding-top:10px; padding-right;10px; padding-bottom:10px; padding-left:10px;"
                     >
-                      <table>
+                      <table style="border-collapse: collapse">
                         <tr>
                           <td width="100%">
                             <a
@@ -217,7 +205,8 @@
                                 font-weight: bold;
                               "
                               target="__blank"
-                              href="%%article-1__link%%"
+                              href="%%article-1__link%%
+                              "
                             >
                               %%article-1__heading%%
                             </a>
@@ -248,12 +237,12 @@
             <!-- // End Module: ARTICLE #1 \\ -->
 
             <!-- // Begin Module: Text Banner A \ -->
-            <tr align="center">
-              <td>
+            <tr>
+              <td align="center">
                 <a
                   style="
                     text-decoration: none;
-                    color: #000000;
+                    color: #e0c859;
                     font-family: Lato, Helvetica, Arial, sans-serif;
                     font-size: 18px;
                     line-height: 1.1;
@@ -263,39 +252,28 @@
                 >
                   <div
                     class="banner-a-div"
-                    style="background: #dedf52; border-radius: 10px"
+                    style="
+                      background: #000000;
+                      border-radius: 10px;
+                      margin: 0 auto;
+                    "
                   >
-                    <table width="100%" align="center">
+                    <table
+                      style="border-collapse: collapse"
+                      width="100%"
+                      align="center"
+                    >
                       <tr>
                         <td>
                           <p
                             class="banner-a-text"
                             style="
-                              font-style: italic;
+                              letter-spacing: 3px;
                               margin: 26px 0;
                               text-align: center;
                             "
                           >
                             %%banner-a__text-1%%
-                          </p>
-                        </td>
-                        <td>
-                          <p
-                            class="banner-a-text"
-                            style="margin: 26px 0; text-align: center"
-                          >
-                            <span
-                              class="banner-a-span"
-                              style="
-                                font-weight: bold;
-                                font-style: normal;
-                                padding: 10px 15px;
-                                border-radius: 20px;
-                                letter-spacing: 3px;
-                                background: rgba(255, 255, 255, 0.22);
-                              "
-                              >%%banner-a__text-2%%</span
-                            >
                           </p>
                         </td>
                       </tr>
@@ -310,6 +288,7 @@
             <tr>
               <td>
                 <table
+                  style="border-collapse: collapse"
                   border="0"
                   cellpadding="0"
                   cellspacing="0"
@@ -319,16 +298,18 @@
                     <td align="center" width="50%">
                       <a target="__blank" href="%%article-2__link%%">
                         <img
+                          width="180"
                           class="img__browser"
-                          src="%%article-2__image-browser%%"
+                          src="%%article-2__image%%"
                           style="display: block; border-radius: 10px"
-                          alt=""
+                          alt="%%article-2__alt-text%%"
                         />
                         <div class="img__responsive" style="display: none">
                           <img
-                            src="%%article-2__image-mobile%%"
+                            width="480"
+                            src="%%article-2__image%%"
                             style="border-radius: 10px"
-                            alt=""
+                            alt="%%article-2__alt-text%%"
                           />
                         </div>
                       </a>
@@ -348,7 +329,8 @@
                                 font-weight: bold;
                               "
                               target="__blank"
-                              href="%%article-2__link%%"
+                              href="%%article-2__link%%
+                              "
                             >
                               %%article-2__heading%%
                             </a>
@@ -391,16 +373,18 @@
                     <td align="center" width="50%">
                       <a target="__blank" href="%%article-3__link%%">
                         <img
+                          width="180"
                           class="img__browser"
-                          src="%%article-3__image-browser%%"
+                          src="%%article-3__image%%"
                           style="display: block; border-radius: 10px"
-                          alt=""
+                          alt="%%article-3__alt-text%%"
                         />
                         <div class="img__responsive" style="display: none">
                           <img
-                            src="%%article-3__image-mobile%%"
+                            width="480"
+                            src="%%article-3__image%%"
                             style="border-radius: 10px"
-                            alt=""
+                            alt="%%article-3__alt-text%%"
                           />
                         </div>
                       </a>
@@ -450,39 +434,74 @@
             </tr>
             <!-- // End Module: ARTICLE #3\ -->
 
-            <!-- // Begin Module: IMAGE Banner Ad\ -->
-            <tr>
-              <td valign="top">
-                <div>
-                  <a
-                    target="__blank"
-                    href="%%banner-b__link%%"
-                    ><img
-                      class="img__browser"
-                      style="border-radius: 10px"
-                      src="%%banner-b__image-browser%%"
-                      alt="%%banner-b__alt-text%%"
-                      width="598" />
-                    <div style="display: none" class="img__responsive">
-                      <img
-                        width="598"
-                        style="border-radius: 10px"
-                        src="%%banner-b__image-responsive%%"
-                        alt="%%banner-b__alt-text%%"
-                      /></div
-                  ></a>
-                </div>
+            <!-- // Begin Module: Banner B \ -->
+            <tr align="center">
+              <td>
+                <a
+                  style="
+                    text-decoration: none;
+                    color: #000000;
+                    font-family: Lato, Helvetica, Arial, sans-serif;
+                    font-size: 18px;
+                  "
+                  target="__blank"
+                  href="%%banner-b__text-1%%"
+                >
+                  <div
+                    class="banner-a-div"
+                    style="background: #2c1010; border-radius: 10px"
+                  >
+                    <table
+                      style="border-collapse: collapse"
+                      width="100%"
+                      align="center"
+                    >
+                      <tr>
+                        <p
+                          class="banner-a-text"
+                          style="
+                            margin: 0;
+                            padding: 9px 0 0 0;
+                            text-align: center;
+                            color: #fff;
+                          "
+                        >
+                          %%banner-b__text-1%%
+                        </p>
+                      </tr>
+                      <tr>
+                        <p
+                          class="banner-a-text"
+                          style="margin: 0; padding: 12px 0 18px 0"
+                        >
+                          <span
+                            class="banner-a-span"
+                            style="
+                              font-weight: bold;
+                              font-style: normal;
+                              padding: 6px 15px;
+                              border-radius: 20px;
+                              background: rgba(255, 255, 255, 0.8);
+                              color: #2c1010; ;
+                            "
+                            >%%banner-b__text-2%%</span
+                          >
+                        </p>
+                      </tr>
+                    </table>
+                  </div>
+                </a>
               </td>
             </tr>
-            <!-- // End Module: IMAGE Banner AD \ -->
+            <!-- // End Module: Banner B \ -->
 
             <!-- // Begin Module: LOGO\ -->
-            <tr>
-              <td align="center">
+            <tr cellpadding="0">
+              <td cellpadding="0" align="center">
                 <a target="__blank" href="https://caseytrees.org/"
                   ><img
-                    width="138"
-                    src="https://caseytrees.org/wp-content/uploads/2020/11/Black-tree-logo.png"
+                    width="250"
+                    src="https://caseytrees.org/wp-content/uploads/2020/08/Cobalt_Horizontal-logo-2.png"
                 /></a>
               </td>
             </tr>
@@ -498,14 +517,14 @@
                     ><img
                       alt=""
                       height="35"
-                      src="https://caseytrees.org/wp-content/uploads/2018/11/facebook-logo13259.png"
+                      src="https://caseytrees.org/wp-content/uploads/2020/08/Cobalt-Facebook.png"
                       width="35" /></a
                   >&nbsp;&nbsp;
                   <a target="__blank" href="http://twitter.com/caseytrees"
                     ><img
                       alt=""
                       height="35"
-                      src="https://caseytrees.org/wp-content/uploads/2018/11/twitter-logo.png"
+                      src="https://caseytrees.org/wp-content/uploads/2020/08/Cobalt-Twitter.png"
                       width="35" /></a
                   >&nbsp;&nbsp;<a
                     target="__blank"
@@ -513,33 +532,30 @@
                     ><img
                       alt=""
                       height="35"
-                      src="https://caseytrees.org/wp-content/uploads/2018/11/instagram-logo.png"
+                      src="https://caseytrees.org/wp-content/uploads/2020/08/Cobalt-Instagram.png"
                       width="35" /></a
                   >&nbsp;&nbsp;<a
                     target="__blank"
-                    href="http://flickr.com/photos/caseytrees"
+                    href="https://caseytrees.org/resources/blog/"
                     ><img
                       alt=""
                       height="35"
-                      src="https://caseytrees.org/wp-content/uploads/2018/11/flickr-logo.png"
-                      width="35" /></a
-                  >&nbsp;&nbsp;<a
-                    target="__blank"
-                    href="http://www.youtube.com/caseytrees"
-                    ><img
-                      alt=""
-                      height="35"
-                      src="https://caseytrees.org/wp-content/uploads/2018/11/youtube-logo.png"
+                      src="https://caseytrees.org/wp-content/uploads/2020/08/Cobalt-Leaflet.png"
                       width="35"
                   /></a>
                 </p>
               </td>
             </tr>
-            <!-- // End Module: Social LOGOS\ -->
             <!-- // Begin Module: view online header \\ -->
             <tr>
               <td>
-                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                <table
+                  style="border-collapse: collapse"
+                  border="0"
+                  cellpadding="0"
+                  cellspacing="0"
+                  width="100%"
+                >
                   <tr>
                     <td align="center">
                       <p

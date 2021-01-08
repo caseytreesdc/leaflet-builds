@@ -1,38 +1,38 @@
 import sys
 
 
-NVP_20201207 = {
-    'preheader': 'and tips on regenerative pruning',
-    'article-1__link': 'https://caseytrees.org/2020/12/we-made-it-through-2020-a-gift-guide/?utm_source=leaflet&utm_medium=email&utm_campaign=eoy',
+NVP_20201214 = {
+    'preheader': 'and Greenery Collection in the District starts Jan 11',
+    'article-1__link': 'https://caseytrees.org/2021/01/an-urban-tree-summit-recap/?utm_source=leaflet&utm_medium=email&utm_campaign=greencitiesummit',
     'article-1__alt-text': '',
-    'article-1__image': 'https://caseytrees.org/wp-content/uploads/2020/12/Gift-Guide-Leaflet-Preview.gif',
-    'article-1__heading': 'We Made It Through 2020: A Gift Guide',
-    'article-1__description': 'What a year folks! Let’s treat each other - the simple things are often best',
-    'banner-a__text-1': 'MAKE A YEAR-END GIFT',
-    'banner-a__text-2': '',
-    'banner-a__link': 'https://connect.clickandpledge.com/w/Form/2ab97890-387e-4b10-a454-6ab08350e1b8?utm_source=leaflet&utm_medium=email&utm_campaign=eoy&utm_content=email8&trk=eoy5',
+    'article-1__image': 'https://caseytrees.org/wp-content/uploads/2021/01/uts-recap-email.png',
+    'article-1__heading': 'An Urban Tree Summit Recap',
+    'article-1__description': 'Together with Montgomery Parks, we held our first virtual summit! Here’s what went down',
+    'banner-a__text-1': 'BLANK',
+    'banner-a__text-2': 'BLANK',
+    'banner-a__link': 'https://caseytrees.org/',
     'banner-a__image-browser': '',
     'banner-a__image-responsive': '',
     'banner-a__alt-text': '',
-    'article-2__link': 'https://caseytrees.org/2020/12/from-the-archives-pruning-tips/?utm_source=leaflet&utm_medium=email&utm_campaign=feeforservice',
+    'article-2__link': 'https://caseytrees.org/2021/01/holiday-greenery-collection-in-dc-starts-january-11/?utm_source=leaflet&utm_medium=email&utm_campaign=citypartner',
     'article-2__alt-text': '',
-    'article-2__image': 'https://caseytrees.org/wp-content/uploads/2020/12/tree-pruning-email.png',
-    'article-2__heading': 'From the Archives: Pruning Tips',
-    'article-2__description': 'Tips on how to prune trees yourself, or who you call if you don’t',
-    'article-3__link': 'https://caseytrees.org/2020/12/preserving-the-rich-agricultural-and-cultural-legacy-of-the-casey-tree-farm-2/?utm_source=leaflet&utm_medium=email&utm_campaign=caseytreefarm',
+    'article-2__image': 'https://caseytrees.org/wp-content/uploads/2020/12/greenery-collection-email.png',
+    'article-2__heading': 'Holiday Greenery Collection in DC Starts January 11',
+    'article-2__description': 'If you’re ready to part with your tree, wreath, or greens, here’s how',
+    'article-3__link': 'https://caseytrees.org/2021/01/from-the-archives-winter-tree-care/?utm_source=leaflet&utm_medium=email&utm_campaign=treecare',
     'article-3__alt-text': '',
-    'article-3__image': 'https://caseytrees.org/wp-content/uploads/2020/08/farm-rebate-email.png',
-    'article-3__heading': 'Preserving the Rich Agricultural and Cultural Legacy of the Casey Tree Farm',
-    'article-3__description': 'How our Farm, located on the banks of the Shenandoah River, cultivates 100 acres of land sustainably. And how you can help!',
-    'banner-b__link': 'https://www.washingtonpost.com/local/dc-ward-8-parks-cleanup/2020/12/05/1d34f078-260f-11eb-8672-c281c7a2c96e_story.html',
-    'banner-b__text-1': 'Casey Trees in the Post', 
-    'banner-b__text-2': 'A Fight for Forestry Equity', 
+    'article-3__image': 'https://caseytrees.org/wp-content/uploads/2020/12/winter-tree-care-email.png',
+    'article-3__heading': 'From the Archives: Winter Tree Care',
+    'article-3__description': 'They may be dormant, but that doesn’t mean you can’t help out trees',
+    'banner-b__link': 'https://connect.clickandpledge.com/w/Form/2ab97890-387e-4b10-a454-6ab08350e1b8?utm_source=leaflet&utm_medium=email&utm_campaign=eoy&utm_content=email7B&trk=eoy10',
+    'banner-b__text-1': 'BLANK', 
+    'banner-b__text-2': 'BLANK', 
     'banner-b__image-browser': 'https://caseytrees.org/wp-content/uploads/2020/08/Mask_Ad_1.png',
     'banner-b__image-responsive': 'https://caseytrees.org/wp-content/uploads/2020/08/MaskAd2-responsive.png',
-    'banner-b__alt-text': 'Protect Others. Protect Yourself. Protect Our Urban Forest. Link to masks on our online store.',
+    'banner-b__alt-text': '',
 }
 
-NVP = NVP_20201207
+NVP = NVP_20201214
 #
 
 

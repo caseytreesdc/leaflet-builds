@@ -6,7 +6,7 @@ NVP_20210208 = {
     'article-1__link': 'https://caseytrees.org/2021/02/spring-outlook-2/?utm_source=leaflet&utm_medium=email&utm_campaign=phenology',
     'article-1__alt-text': '',
     'article-1__image': 'https://caseytrees.org/wp-content/uploads/2021/02/spring-outlook-2021-email.png',
-    'article-1__heading': 'Walk on the Wild Side with the Urban Forestry Division',
+    'article-1__heading': 'Spring Outlook',
     'article-1__description': 'If a groundhog can forecast the weather, so can your friendly neighborhood urban forestry nonprofit.',
     'banner-a__text-1': 'DONATE TODAY',
     'banner-a__text-2': "Donate today",

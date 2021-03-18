@@ -1,38 +1,38 @@
 import sys
 
 
-NVP_20210305 = {
-    'preheader': "#PeakBloom will be here before you know it too",
-    'article-1__link': 'https://caseytrees.org/2021/03/brood-x-is-on-its-way/?utm_source=leaflet&utm_medium=email&utm_campaign=phenology',
-    'article-1__alt-text': '2 Cicadas on a branch',
-    'article-1__image': 'https://caseytrees.org/wp-content/uploads/2021/02/brood-x-cicada-email.png',
-    'article-1__heading': 'Brood X is on its way',
-    'article-1__description': 'You get a front row seat to one of nature’s most remarkable phenomenons',
+NVP_20210315 = {
+    'preheader': "And an update from our Executive Director",
+    'article-1__link': 'https://caseytrees.org/2021/03/a-note-from-executive-director-mark-buscaino/?utm_source=leaflet&utm_medium=email&utm_campaign=executiveupdate',
+    'article-1__alt-text': 'a beautiful blossom with large white petals and dark green leaves',
+    'article-1__image': 'https://caseytrees.org/wp-content/uploads/2021/02/march-cancelled-email.png',
+    'article-1__heading': 'A Note From Executive Director, Mark Buscaino',
+    'article-1__description': 'An update on spring and Casey Trees',
     'banner-a__link': '',
-    'banner-a__alt-text': "Happy International Women's Day",
+    'banner-a__alt-text': "Save the Date, Arbor Day 2021, 4/30/21",
     'banner-a__image-browser': 'https://caseytrees.org/wp-content/uploads/2021/03/Leaflet-ad_canopy-awards-save-the-date-teaser-v2.png',
     'banner-a__image-responsive': 'https://caseytrees.org/wp-content/uploads/2021/03/Leaflet-ad_canopy-awards-save-the-date-teaser-mobile-v2.png',
-    'banner-a__text-1': 'Foresters to Recognize!', 
-    'banner-a__text-2': "INTERNATIONAL WOMEN'S DAY 2021", 
-    'article-2__link': 'https://caseytrees.org/2021/03/nps-predicts-an-april-peak-bloom/?utm_source=leaflet&utm_medium=email&utm_campaign=phenology',
-    'article-2__alt-text': 'more blooms',
-    'article-2__image': 'https://caseytrees.org/wp-content/uploads/2021/03/peak-bloom-email.png',
-    'article-2__heading': 'So is Peak Bloom',
-    'article-2__description': 'You get a front row seat to another one of our city’s most remarkable phenomenons',
-    'article-3__link': 'https://caseytrees.org/2021/03/tree-rainbow-yellow-and-green-blooms/?utm_source=leaflet&utm_medium=email&utm_campaign=riversmarthomes',
-    'article-3__alt-text': 'yellow and green blooms',
-    'article-3__image': 'https://caseytrees.org/wp-content/uploads/2021/03/tuliptree-email.png',
-    'article-3__heading': 'Tree Rainbow: Yellow and Green Blooms',
-    'article-3__description': 'Bring the rainbow to your yard with our free trees!',
-    'banner-b__link': 'https://caseytrees.org/2017/03/run-world-famous-female-foresters/',
-    'banner-b__alt-text': '',
-    'banner-b__image-browser': '',
-    'banner-b__image-responsive': '',
-    'banner-b__text-1': 'Foresters to Recognize!',
-    'banner-b__text-2': "INTERNATIONAL WOMEN'S DAY 2021",
+    'banner-a__text-1': 'Text 1', 
+    'banner-a__text-2': "Text 2", 
+    'article-2__link': 'https://caseytrees.org/2021/03/a-phenology-explainer/?utm_source=leaflet&utm_medium=email&utm_campaign=phenology',
+    'article-2__alt-text': 'spring leaf index map',
+    'article-2__image': 'https://caseytrees.org/wp-content/uploads/2021/03/six-leaf-index-daily-anomaly-2021.gif',
+    'article-2__heading': 'A Phenology Explainer',
+    'article-2__description': 'Phenology, in turn, explains natural phenomena like spring leaf out, cicada emergence and more',
+    'article-3__link': 'https://caseytrees.org/2021/03/tree-rainbow-blue-and-purple-blooms/?utm_source=leaflet&utm_medium=email&utm_campaign=riversmarthomes',
+    'article-3__alt-text': 'blue and purple blooms',
+    'article-3__image': 'https://caseytrees.org/wp-content/uploads/2021/03/redbud-branch-spring-rainbow-email.png',
+    'article-3__heading': 'Tree Rainbow: Blue and Purple Blooms',
+    'article-3__description': 'Their common names’ are colors, but neither are blue or purple!',
+    'banner-b__link': 'https://caseytrees.org/about-us/jobs-internships/',
+    'banner-b__alt-text': "We're hiring!",
+    'banner-b__image-browser': 'https://caseytrees.org/wp-content/uploads/2020/09/Leaflet-ad_we-are-hiring.png',
+    'banner-b__image-responsive': 'https://caseytrees.org/wp-content/uploads/2020/09/Leaflet-ad_we-are-hiring-mobile.png',
+    'banner-b__text-1': 'We Are',
+    'banner-b__text-2': "Hiring",
 }
 
-NVP = NVP_20210305
+NVP = NVP_20210315
 #
 
 

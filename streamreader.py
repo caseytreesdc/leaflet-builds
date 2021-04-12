@@ -1,38 +1,38 @@
 import sys
 
 
-NVP_20210315 = {
-    'preheader': "And an update from our Executive Director",
-    'article-1__link': 'https://caseytrees.org/2021/03/a-note-from-executive-director-mark-buscaino/?utm_source=leaflet&utm_medium=email&utm_campaign=executiveupdate',
-    'article-1__alt-text': 'a beautiful blossom with large white petals and dark green leaves',
-    'article-1__image': 'https://caseytrees.org/wp-content/uploads/2021/02/march-cancelled-email.png',
-    'article-1__heading': 'A Note From Executive Director, Mark Buscaino',
-    'article-1__description': 'An update on spring and Casey Trees',
-    'banner-a__link': '',
-    'banner-a__alt-text': "Save the Date, Arbor Day 2021, 4/30/21",
-    'banner-a__image-browser': 'https://caseytrees.org/wp-content/uploads/2021/03/Leaflet-ad_canopy-awards-save-the-date-teaser-v2.png',
-    'banner-a__image-responsive': 'https://caseytrees.org/wp-content/uploads/2021/03/Leaflet-ad_canopy-awards-save-the-date-teaser-mobile-v2.png',
-    'banner-a__text-1': 'Text 1', 
-    'banner-a__text-2': "Text 2", 
-    'article-2__link': 'https://caseytrees.org/2021/03/a-phenology-explainer/?utm_source=leaflet&utm_medium=email&utm_campaign=phenology',
-    'article-2__alt-text': 'spring leaf index map',
-    'article-2__image': 'https://caseytrees.org/wp-content/uploads/2021/03/six-leaf-index-daily-anomaly-2021.gif',
-    'article-2__heading': 'A Phenology Explainer',
-    'article-2__description': 'Phenology, in turn, explains natural phenomena like spring leaf out, cicada emergence and more',
-    'article-3__link': 'https://caseytrees.org/2021/03/tree-rainbow-blue-and-purple-blooms/?utm_source=leaflet&utm_medium=email&utm_campaign=riversmarthomes',
-    'article-3__alt-text': 'blue and purple blooms',
-    'article-3__image': 'https://caseytrees.org/wp-content/uploads/2021/03/redbud-branch-spring-rainbow-email.png',
-    'article-3__heading': 'Tree Rainbow: Blue and Purple Blooms',
-    'article-3__description': 'Their common names’ are colors, but neither are blue or purple!',
+NVP_20210329 = {
+    'preheader': 'This Arbor Day, we’re delivering the festivities right to your door.',
+    'article-1__link': 'https://www.canopyfest.org/?utm_source=leaflet&utm_medium=email&utm_campaign=canopyawards',
+    'article-1__alt-text': 'Arbor Day Delivered Ordering is Open',
+    'article-1__image': 'https://caseytrees.org/wp-content/uploads/2021/04/arborday2021-email.png',
+    'article-1__heading': 'Arbor Day Delivered Ordering is Open',
+    'article-1__description': 'Don’t miss out on this opportunity to eat delicious food, support your urban canopy and its heroes, celebrate the best day of the year, *and* get a hold of awesome, unique Casey Trees merchandise. ',
+    'banner-a__link': 'https://connect.clickandpledge.com/w/Form/cf568424-cf67-40f9-808b-cdcde7a60f26',
+    'banner-a__alt-text': 'Run 4 Mother Earth 5K',
+    'banner-a__image-browser': 'https://caseytrees.org/wp-content/uploads/2021/04/Leaflet-ad_earth-day-5k.png',
+    'banner-a__image-responsive': 'https://caseytrees.org/wp-content/uploads/2021/04/Leaflet-ad_earth-day-5k-mobile.png',
+    'banner-a__text-1': 'Run', 
+    'banner-a__text-2': '4 Mother Earth', 
+    'article-2__link': 'https://caseytrees.org/2021/04/casey-trees-talks-to-councilmember-allen/?utm_source=leaflet&utm_medium=email&utm_campaign=advocacy',
+    'article-2__alt-text': '',
+    'article-2__image': 'https://caseytrees.org/wp-content/uploads/2020/10/nuttall-email.png',
+    'article-2__heading': 'Casey Trees Talks to Councilmember Allen',
+    'article-2__description': 'Hear his thoughts on Heritage trees and the future of tree legislation',
+    'article-3__link': 'https://caseytrees.org/2021/04/women-in-forestry-and-the-environment-margaret-pooler/?utm_source=nationalholiday&utm_medium=email&utm_campaign=riversmarthomes',
+    'article-3__alt-text': '',
+    'article-3__image': 'https://caseytrees.org/wp-content/uploads/2021/04/margaret-pooler-womens-hist-moth-email.png',
+    'article-3__heading': 'Women in Forestry and the Environment: Margaret Pooler',
+    'article-3__description': 'Researcher at the US National Arboretum',
     'banner-b__link': 'https://caseytrees.org/about-us/jobs-internships/',
     'banner-b__alt-text': "We're hiring!",
     'banner-b__image-browser': 'https://caseytrees.org/wp-content/uploads/2020/09/Leaflet-ad_we-are-hiring.png',
     'banner-b__image-responsive': 'https://caseytrees.org/wp-content/uploads/2020/09/Leaflet-ad_we-are-hiring-mobile.png',
     'banner-b__text-1': 'We Are',
-    'banner-b__text-2': "Hiring",
+    'banner-b__text-2': 'Hiring',
 }
 
-NVP = NVP_20210315
+NVP = NVP_20210329
 #
 
 

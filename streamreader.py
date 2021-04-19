@@ -1,38 +1,38 @@
 import sys
 
 
-NVP_20210329 = {
-    'preheader': '#ArborDayDelivered Merch: the Latest and Greatest in Casey Trees Style',
-    'article-1__link': 'https://caseytrees.org/2021/04/did-you-see-the-arbordaydelivered-merch-packs/?utm_source=leaflet&utm_medium=email&utm_campaign=canopyawards',
+NVP_20210412 = {
+    'preheader': '',
+    'article-1__link': 'https://caseytrees.org/2021/04/canopyfest-virtual-runs-in-person-tree-walks-and-a-nature-challenge/?utm_source=leaflet&utm_medium=email&utm_campaign=canopyawards',
     'article-1__alt-text': '',
-    'article-1__image': 'https://caseytrees.org/wp-content/uploads/2021/04/hatv_v2.gif',
-    'article-1__heading': 'Did You See the #ArborDayDelivered Merch Packs?',
-    'article-1__description': 'Support us if you don’t within the meal delivery zone and get sweet swag',
-    'banner-a__link': 'https://connect.clickandpledge.com/w/Form/cf568424-cf67-40f9-808b-cdcde7a60f26',
-    'banner-a__alt-text': 'Run 4 Mother Earth 5K',
-    'banner-a__image-browser': 'https://caseytrees.org/wp-content/uploads/2021/04/Leaflet-ad_earth-day-5k.png',
-    'banner-a__image-responsive': 'https://caseytrees.org/wp-content/uploads/2021/04/Leaflet-ad_earth-day-5k-mobile.png',
-    'banner-a__text-1': 'Run', 
-    'banner-a__text-2': '4 Mother Earth', 
-    'article-2__link': 'https://caseytrees.org/2021/04/casey-trees-testifies-on-dc-agency-performance/?utm_source=leaflet&utm_medium=email&utm_campaign=advocacy',
+    'article-1__image': 'https://caseytrees.org/wp-content/uploads/2020/10/chestnuut-email.png',
+    'article-1__heading': 'CanopyFest: Virtual Runs, In Person Tree Walks, and a Nature Challenge',
+    'article-1__description': 'Arbor Day might not be until the end of April, but Casey Trees and friends are celebrating our urban forest all month long. Join us at these April activities!',
+    'banner-a__link': 'https://www.canopyfest.org/',
+    'banner-a__alt-text': 'Arbor Day Delivered',
+    'banner-a__image-browser': 'https://caseytrees.org/wp-content/uploads/2021/04/Leaflet-ad_arbor-day-delivered.png',
+    'banner-a__image-responsive': 'https://caseytrees.org/wp-content/uploads/2021/04/Leaflet-ad_arbor-day-delivered-mobile.png',
+    'banner-a__text-1': 'Arbor Day',
+    'banner-a__text-2': 'Delivered',
+    'article-2__link': 'https://caseytrees.org/2021/04/hiring-business-manager-and-horticulturist/?utm_source=leaflet&utm_medium=email&utm_campaign=jobs',
     'article-2__alt-text': '',
-    'article-2__image': 'https://caseytrees.org/wp-content/uploads/2020/12/heritage-trees-email.png',
-    'article-2__heading': 'Casey Trees Testifies on DC Agency Performance',
-    'article-2__description': 'We commented on the performance of 12 different agencies, but asked for three main things. Here’s what they are.',
-    'article-3__link': 'https://caseytrees.org/2021/04/tree-id-walks-in-april-and-may/?utm_source=leaflet&utm_medium=email&utm_campaign=programming',
+    'article-2__image': 'https://caseytrees.org/wp-content/uploads/2020/08/hiring-2018-email.png',
+    'article-2__heading': 'Hiring: Business Manager and Horticulturist ',
+    'article-2__description': 'We’re looking for dedicated, talented folks to join our team',
+    'article-3__link': 'https://caseytrees.org/2021/04/the-sturdy-steadfast-oak-is-the-perfect-tree-for-troubled-times-why-you-should-plant-them-from-an-expert/?utm_source=leaflet&utm_medium=email&utm_campaign=canopyawards',
     'article-3__alt-text': '',
-    'article-3__image': 'https://caseytrees.org/wp-content/uploads/2021/04/tree-walk-2021-email.png',
-    'article-3__heading': 'Tree ID Walks in April and May',
-    'article-3__description': 'Join Casey Trees staff to learn key characteristics of the trees that make up our urban canopy',
-    'banner-b__link': '',
-    'banner-b__alt-text': "Save the Date, Arbor Day, April 30, 2021",
-    'banner-b__image-browser': 'https://caseytrees.org/wp-content/uploads/2021/03/Leaflet-ad_canopy-awards-save-the-date-teaser-v2.png',
-    'banner-b__image-responsive': 'https://caseytrees.org/wp-content/uploads/2021/03/Leaflet-ad_canopy-awards-save-the-date-teaser-mobile-v2.png',
-    'banner-b__text-1': 'We Are',
-    'banner-b__text-2': 'Hiring',
+    'article-3__image': 'https://caseytrees.org/wp-content/uploads/2021/04/sturdy-oak-email.png',
+    'article-3__heading': '“The sturdy, steadfast oak is the perfect tree for troubled times” Why You Should Plant Them, from an Expert',
+    'article-3__description': 'Sharing a Washington Post article and ways to get your hands on a free Casey Trees oak',
+    'banner-b__link': 'https://connect.clickandpledge.com/w/Form/cf568424-cf67-40f9-808b-cdcde7a60f26',
+    'banner-b__alt-text': 'Run 4 Mother Earth 5K',
+    'banner-b__image-browser': 'https://caseytrees.org/wp-content/uploads/2021/04/Leaflet-ad_earth-day-5k.png',
+    'banner-b__image-responsive': 'https://caseytrees.org/wp-content/uploads/2021/04/Leaflet-ad_earth-day-5k-mobile.png',
+    'banner-b__text-1': 'Run', 
+    'banner-b__text-2': '4 Mother Earth',
 }
 
-NVP = NVP_20210329
+NVP = NVP_20210412
 #
 
 

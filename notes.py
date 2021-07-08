@@ -844,9 +844,7 @@ NVP_20201214 = {
     'banner-b__alt-text': 'Protect Others. Protect Yourself. Protect Our Urban Forest. Link to masks on our online store.',
 }
 
-NVP = NVP_20201214
-
-Wrapping up a most unusual year',
+NVP = NVP_20201214 = {
     'article-1__link': 'https://caseytrees.org/2020/12/almost-to-our-goal-help-us-secure-a-board-member-match-donate-now/?utm_source=leaflet&utm_medium=email&utm_campaign=eoy',
     'article-1__alt-text': 'TODAY ONLY YOUR GIFT IS MATCHED',
     'article-1__image': 'https://caseytrees.org/wp-content/uploads/2020/12/match-email.png',
@@ -874,7 +872,7 @@ Wrapping up a most unusual year',
     'banner-b__image-browser': 'https://caseytrees.org/wp-content/uploads/2020/08/Mask_Ad_1.png',
     'banner-b__image-responsive': 'https://caseytrees.org/wp-content/uploads/2020/08/MaskAd2-responsive.png',
     'banner-b__alt-text': 'Protect Others. Protect Yourself. Protect Our Urban Forest. Link to masks on our online store.',
-
+}
 
 NVP_20201214 = {
     'preheader': 'A Few More Days to Make Your Tax-Deductible Donation',
@@ -1430,11 +1428,11 @@ NVP_20210426 = {
     'article-3__heading': 'Heritage Tree versus Special Tree',
     'article-3__description': 'Breaking down the definitions and differences',
     'banner-b__link': 'https://casey-trees.myshopify.com/',
-    'banner-b__alt-text': 'Merch!',
-    'banner-b__image-browser': 'https://caseytrees.org/wp-content/uploads/2021/03/Leaflet-ad_browse-our-new-store.png',
-    'banner-b__image-responsive': 'https://caseytrees.org/wp-content/uploads/2021/03/Leaflet-ad_browse-our-new-store-mobile.png',
-    'banner-b__text-1': 'Merch', 
-    'banner-b__text-2': 'Merch',
+    'banner-b__alt-text': 'Juneteenth',
+    'banner-b__image-browser': 'https://caseytrees.org/wp-content/uploads/2021/06/Leaflet-ad_juneteenth.png',
+    'banner-b__image-responsive': 'https://caseytrees.org/wp-content/uploads/2021/06/Leaflet-ad_juneteenth-mobile.png',
+    'banner-b__text-1': 'June', 
+    'banner-b__text-2': 'Teenth',
 }
 
 NVP = NVP_20210426
@@ -1551,3 +1549,137 @@ NVP_20210524 = {
     'banner-b__text-1': 'TRC', 
     'banner-b__text-2': '2020',
 }
+
+
+NVP_20210601 = {
+    'preheader': "and don't forget Dad!",
+    'article-1__link': 'https://caseytrees.org/2021/06/need-a-fathers-day-gift/?utm_source=leaflet&utm_medium=email&utm_campaign=programming',
+    'article-1__alt-text': 'dads and kids',
+    'article-1__image': 'https://caseytrees.org/wp-content/uploads/2021/06/fathers-day-21-email.png',
+    'article-1__heading': 'Need a Father’s Day Gift?',
+    'article-1__description': 'Symbolically adopting a tree makes an easy, everlasting gift',
+    'banner-ss__link-left' : 'https://caseytrees.org/take-action/water/',
+    'banner-ss__alt-left' : 'Weekly Watering Alerts: Watering Optional',
+    'banner-ss__image-left' : 'https://caseytrees.org/wp-content/uploads/2021/05/weekly-watering-alert_optional-mobile.jpg',
+    'banner-ss__link-right' : 'https://caseytrees.org/2021/05/cicada-resources/?utm_source=leaflet&utm_medium=email&utm_campaign=treecare',
+    'banner-ss__alt-right' : 'Cicada Updates',
+    'banner-ss__image-right' : 'https://caseytrees.org/wp-content/uploads/2021/05/cicada_leaflet.png',
+    'article-2__link': 'https://caseytrees.org/2021/06/these-trees-get-you-100/?utm_source=leaflet&utm_medium=email&utm_campaign=rebate',
+    'article-2__alt-text': 'row houses and the tree crowns',
+    'article-2__image': 'https://caseytrees.org/wp-content/uploads/2021/06/tree-rebate-email.png',
+    'article-2__heading': 'These Trees Get You $100',
+    'article-2__description': 'Among countless other benefits from Oaks and more',
+    'article-3__link': 'https://caseytrees.org/2021/06/ornamental-trees-well-plant-for-free/?utm_source=leaflet&utm_medium=email&utm_campaign=riversmarthomes',
+    'article-3__alt-text': 'an ornalmental dogwood',
+    'article-3__image': 'https://caseytrees.org/wp-content/uploads/2021/05/dogwood-ornamental-rsh-email.png',
+    'article-3__heading': "Trees We’ll Plant for Free",
+    'article-3__description': 'So many choices, so little time. These showstoppers deliver',
+    'banner-b__link': 'https://caseytrees.org/urban-tree-summit-2021/',
+    'banner-b__alt-text': "Early Access Tickets: Montgomery Parks and Casey Trees Present the Urban Tree Summit",
+    'banner-b__image-browser': 'https://caseytrees.org/wp-content/uploads/2021/06/Leaflet-ad_uts-eb.png',
+    'banner-b__image-responsive': 'https://caseytrees.org/wp-content/uploads/2021/06/Leaflet-ad_uts-eb-mobile.png',
+    'banner-b__text-1': 'TRC', 
+    'banner-b__text-2': '2020',
+}
+
+
+NVP_20210601 = {
+    'preheader': "Why not both? Plus medium trees we plant for free!",
+    'article-1__link': 'https://caseytrees.org/2021/06/choose-your-adventure-virtual-and-in-person-urban-tree-summit/?utm_source=leaflet&utm_medium=email&utm_campaign=programming',
+    'article-1__alt-text': 'community scientists and arborists',
+    'article-1__image': 'https://caseytrees.org/wp-content/uploads/2021/06/uts-sessions-email.png',
+    'article-1__heading': 'Choose Your Adventure: Virtual and In-Person Urban Tree Summit',
+    'article-1__description': 'We’ve got something for everyone this year. Register Today',
+    'banner-ss__link-left' : 'https://caseytrees.org/take-action/water/',
+    'banner-ss__alt-left' : 'Weekly Watering Alerts: Watering Optional',
+    'banner-ss__image-left' : 'https://caseytrees.org/wp-content/uploads/2021/05/weekly-watering-alert_must-water-mobile.jpg',
+    'banner-ss__link-right' : 'https://caseytrees.org/2021/05/cicada-resources/?utm_source=leaflet&utm_medium=email&utm_campaign=treecare',
+    'banner-ss__alt-right' : 'Cicada Updates',
+    'banner-ss__image-right' : 'https://caseytrees.org/wp-content/uploads/2021/05/cicada_leaflet.png',
+    'article-2__link': 'https://caseytrees.org/2021/06/did-you-miss-our-virginia-nursery-and-landscape-magazine-feature/?utm_source=leaflet&utm_medium=email&utm_campaign=citypartner',
+    'article-2__alt-text': 'vista of the casey tree farm',
+    'article-2__image': 'https://caseytrees.org/wp-content/uploads/2020/11/farm2020-email.png',
+    'article-2__heading': 'Did You Miss Our Virginia Nursery and Landscape Magazine Feature?',
+    'article-2__description': 'Check out our member spotlight!',
+    'article-3__link': 'https://caseytrees.org/2021/06/medium-trees-we-plant-for-free/?utm_source=leaflet&utm_medium=email&utm_campaign=riversmarthomes',
+    'article-3__alt-text': 'a pawpaw tree',
+    'article-3__image': 'https://caseytrees.org/wp-content/uploads/2021/06/medium-shade-tree-email.png',
+    'article-3__heading': "Goldilocks Trees We Plant For Free",
+    'article-3__description': 'So many choices, so little time. Trees that are just right.',
+    'banner-b__link': 'https://caseytrees.org/2020/06/socially-distant-nature-based-ways-to-mark-juneteenth/',
+    'banner-b__alt-text': 'Juneteenth',
+    'banner-b__image-browser': 'https://caseytrees.org/wp-content/uploads/2021/06/Leaflet-ad_juneteenth.png',
+    'banner-b__image-responsive': 'https://caseytrees.org/wp-content/uploads/2021/06/Leaflet-ad_juneteenth-mobile.png',
+    'banner-b__text-1': 'June', 
+    'banner-b__text-2': 'Teenth',
+}
+
+NVP = NVP_20210601
+
+
+
+NVP_20210621 = {
+    'preheader': "Plus, our summer youth program is back in person and in Spanish",
+    'article-1__link': 'https://caseytrees.org/2021/06/our-summer-youth-program-treewise-is-back-in-person-and-in-spanish/?utm_source=leaflet&utm_medium=email&utm_campaign=programming',
+    'article-1__alt-text': 'the lesson booklets',
+    'article-1__image': 'https://caseytrees.org/wp-content/uploads/2020/08/junior_urban_forestor_guide-responsive.jpg',
+    'article-1__heading': 'Our Summer Youth Program, TreeWise, is Back in Person',
+    'article-1__description': 'New for this year? A partnership and booklets you can buy - in English and Spanish',
+    'banner-ss__link-left' : 'https://caseytrees.org/take-action/water/',
+    'banner-ss__alt-left' : 'Weekly Watering Alerts: Water',
+    'banner-ss__image-left' : 'https://caseytrees.org/wp-content/uploads/2021/05/weekly-watering-alert_must-water-mobile.jpg',
+    'banner-ss__link-right' : 'https://caseytrees.org/2021/05/cicada-resources/?utm_source=leaflet&utm_medium=email&utm_campaign=treecare',
+    'banner-ss__alt-right' : 'Cicada Updates',
+    'banner-ss__image-right' : 'https://caseytrees.org/wp-content/uploads/2021/05/cicada_leaflet.png',
+    'article-2__link': 'https://caseytrees.org/2021/06/bee-rescue/?utm_source=leaflet&utm_medium=email&utm_campaign=citypartner',
+    'article-2__alt-text': 'a bee pollinating',
+    'article-2__image': 'https://caseytrees.org/wp-content/uploads/2021/06/pollinator-email.png',
+    'article-2__heading': 'Bees and Trees: Street Tree Swarm Rescue Edition',
+    'article-2__description': 'Celebrating National Pollinator Week with a exciting rescue',
+    'article-3__link': 'https://caseytrees.org/2021/06/plant-an-oak-for-pollinator-week/?utm_source=leaflet&utm_medium=email&utm_campaign=riversmarthomes',
+    'article-3__alt-text': 'Polyphemus Moth on Pin Oak Tree, courtesy of Nature Into Action.',
+    'article-3__image': 'https://caseytrees.org/wp-content/uploads/2021/06/pollinator-oak-email.png',
+    'article-3__heading': "Plant an Oak for Pollinator Week",
+    'article-3__description': 'Want to Support Pollinators? Plant This Genus of Tree',
+    'banner-b__link': 'https://caseytrees.org/urban-tree-summit-2021/',
+    'banner-b__alt-text': "Early Access Tickets: Montgomery Parks and Casey Trees Present the Urban Tree Summit",
+    'banner-b__image-browser': 'https://caseytrees.org/wp-content/uploads/2021/06/Leaflet-ad_uts-eb.png',
+    'banner-b__image-responsive': 'https://caseytrees.org/wp-content/uploads/2021/06/Leaflet-ad_uts-eb-mobile.png',
+    'banner-b__text-1': 'Urban Tree Summit', 
+    'banner-b__text-2': 'Twentytwentyone',
+}
+
+NVP = NVP_20210621
+
+
+NVP_20210706 = {
+    'preheader': "plus where to watch the fireworks and summer tree care updates.",
+    'article-1__link': 'https://caseytrees.org/2021/06/brood-x-cicada-update/?utm_source=leaflet&utm_medium=email&utm_campaign=feeforservice',
+    'article-1__alt-text': '',
+    'article-1__image': 'https://caseytrees.org/wp-content/uploads/2020/08/tree-check-email.png',
+    'article-1__heading': 'Brood X Cicada Update',
+    'article-1__description': 'Think your tree needs pruning post Cicadas? We can help!',
+    'banner-ss__link-left' : 'https://caseytrees.org/take-action/water/',
+    'banner-ss__alt-left' : 'Weekly Watering Alerts: Water',
+    'banner-ss__image-left' : 'https://caseytrees.org/wp-content/uploads/2021/05/weekly-watering-alert_must-water-mobile.jpg',
+    'banner-ss__link-right' : 'https://caseytrees.org/2021/05/cicada-resources/?utm_source=leaflet&utm_medium=email&utm_campaign=treecare',
+    'banner-ss__alt-right' : 'Cicada Updates',
+    'banner-ss__image-right' : 'https://caseytrees.org/wp-content/uploads/2021/05/cicada_leaflet.png',
+    'article-2__link': 'https://caseytrees.org/2021/06/watch-fireworks-from-the-shade-of-these-trees-2/?utm_source=leaflet&utm_medium=email&utm_campaign=programming',
+    'article-2__alt-text': 'Fireworks over the Kennedy Center across the river',
+    'article-2__image': 'https://caseytrees.org/wp-content/uploads/2021/06/fireworks-email.png',
+    'article-2__heading': 'Watch Fireworks From the Shade of These Trees',
+    'article-2__description': 'Celebrate the return of the Independence Day show!',
+    'article-3__link': 'https://caseytrees.org/2021/06/summer-tree-care/?utm_source=leaflet&utm_medium=email&utm_campaign=treecare',
+    'article-3__alt-text': 'two people, one in a Casey Trees Vest and hat, watering a young tree.',
+    'article-3__image': 'https://caseytrees.org/wp-content/uploads/2021/06/summer-care-email.png',
+    'article-3__heading': "Summer Tree Care",
+    'article-3__description': 'Celebrate summer with some tree TLC',
+    'banner-b__link': 'https://www.eventbrite.com/o/casey-trees-10609188080',
+    'banner-b__alt-text': "Tree Care Events are Back! Reserve your spot now.",
+    'banner-b__image-browser': 'https://caseytrees.org/wp-content/uploads/2021/06/Leaflet-ad_tree-care-events.png',
+    'banner-b__image-responsive': 'https://caseytrees.org/wp-content/uploads/2021/06/Leaflet-ad_tree-care-events-mobile.png',
+    'banner-b__text-1': 'Urban Tree Summit', 
+    'banner-b__text-2': 'Twentytwentyone',
+}
+

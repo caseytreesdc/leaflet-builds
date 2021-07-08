@@ -1,38 +1,38 @@
 import sys
 
 
-NVP_20210601 = {
-    'preheader': "and don't forget Dad!",
-    'article-1__link': 'https://caseytrees.org/2021/06/need-a-fathers-day-gift/?utm_source=leaflet&utm_medium=email&utm_campaign=programming',
-    'article-1__alt-text': 'dads and kids',
-    'article-1__image': 'https://caseytrees.org/wp-content/uploads/2021/06/fathers-day-21-email.png',
-    'article-1__heading': 'Need a Father’s Day Gift?',
-    'article-1__description': 'Symbolically adopting a tree makes an easy, everlasting gift',
-    'banner-ss__link-left' : 'https://caseytrees.org/take-action/water/',
-    'banner-ss__alt-left' : 'Weekly Watering Alerts: Watering Optional',
-    'banner-ss__image-left' : 'https://caseytrees.org/wp-content/uploads/2021/05/weekly-watering-alert_optional-mobile.jpg',
-    'banner-ss__link-right' : 'https://caseytrees.org/2021/05/cicada-resources/?utm_source=leaflet&utm_medium=email&utm_campaign=treecare',
-    'banner-ss__alt-right' : 'Cicada Updates',
-    'banner-ss__image-right' : 'https://caseytrees.org/wp-content/uploads/2021/05/cicada_leaflet.png',
-    'article-2__link': 'https://caseytrees.org/2021/06/these-trees-get-you-100/?utm_source=leaflet&utm_medium=email&utm_campaign=rebate',
-    'article-2__alt-text': 'row houses and the tree crowns',
-    'article-2__image': 'https://caseytrees.org/wp-content/uploads/2021/06/tree-rebate-email.png',
-    'article-2__heading': 'These Trees Get You $100',
-    'article-2__description': 'Among countless other benefits from Oaks and more',
-    'article-3__link': 'https://caseytrees.org/2021/06/ornamental-trees-well-plant-for-free/?utm_source=leaflet&utm_medium=email&utm_campaign=riversmarthomes',
-    'article-3__alt-text': 'an ornalmental dogwood',
-    'article-3__image': 'https://caseytrees.org/wp-content/uploads/2021/05/dogwood-ornamental-rsh-email.png',
-    'article-3__heading': "Trees We’ll Plant for Free",
-    'article-3__description': 'So many choices, so little time. These showstoppers deliver',
+NVP_20210706 = {
+    'preheader': " Save Some Green, Protect Something Green",
+    'article-1__link': 'https://caseytrees.org/2021/07/early-bird-pricing-for-the-urban-tree-summit-ends-july-9/?utm_source=leaflet&utm_medium=email&utm_campaign=programming',
+    'article-1__alt-text': '',
+    'article-1__image': 'https://caseytrees.org/wp-content/uploads/2021/07/uts-2021-email-1.png',
+    'article-1__heading': 'Early Bird Pricing for the Urban Tree Summit Ends Friday, July 9',
+    'article-1__description': 'Whether joining online or in the field, save on registration!',
+    'banner-a__link': 'https://caseytrees.org/take-action/water/',
+    'banner-a__alt-text': 'Weekly Watering Alert: Water',
+    'banner-a__image-browser': 'https://caseytrees.org/wp-content/uploads/2021/05/weekly-watering-alert_must-water.jpg',
+    'banner-a__image-responsive': 'https://caseytrees.org/wp-content/uploads/2021/05/weekly-watering-alert_must-water-mobile.jpg',
+    'banner-a__text-1': 'Weekly Watering Alert',
+    'banner-a__text-2': 'Water',
+    'article-2__link': 'https://caseytrees.org/2021/07/lets-give-a-warm-welcome-to-alex-kew-our-communications-and-events-associate/?utm_source=leaflet&utm_medium=email&utm_campaign=staff',
+    'article-2__alt-text': 'Alex Kew at the Grand Canyon',
+    'article-2__image': 'https://caseytrees.org/wp-content/uploads/2021/07/alex-kew-email.png',
+    'article-2__heading': 'Let’s Give a Warm Welcome to Alex Kew, Our Communications and Events Associate!',
+    'article-2__description': 'A former member of our Tree Operations Crew, she is excited to get back in the field and work aside volunteers.',
+    'article-3__link': 'https://caseytrees.org/2021/07/summer-reading-black-woman-in-green/?utm_source=leaflet&utm_medium=email&utm_campaign=programming',
+    'article-3__alt-text': 'Gloria Brown on the book cover wearing a bright hard hat',
+    'article-3__image': 'https://caseytrees.org/wp-content/uploads/2021/07/black-woman-in-green-email.png',
+    'article-3__heading': "Summer Reading: Black Woman in Green",
+    'article-3__description': 'Gloria Brown and the Unmarked Trail of Forest Service Leadership',
     'banner-b__link': 'https://caseytrees.org/urban-tree-summit-2021/',
-    'banner-b__alt-text': "Early Access Tickets: Montgomery Parks and Casey Trees Present the Urban Tree Summit",
+    'banner-b__alt-text': 'Early Bird Tickets on Sale! Urban Tree Summit 2021',
     'banner-b__image-browser': 'https://caseytrees.org/wp-content/uploads/2021/06/Leaflet-ad_uts-eb.png',
     'banner-b__image-responsive': 'https://caseytrees.org/wp-content/uploads/2021/06/Leaflet-ad_uts-eb-mobile.png',
-    'banner-b__text-1': 'TRC', 
-    'banner-b__text-2': '2020',
+    'banner-b__text-1': 'Urban Tree Summit', 
+    'banner-b__text-2': 'Twentytwentyone',
 }
 
-NVP = NVP_20210601
+NVP = NVP_20210706
 #
 
 

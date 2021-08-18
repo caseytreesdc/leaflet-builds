@@ -1,38 +1,34 @@
 import sys
 
 
-NVP_20210726 = {
-    'preheader': "And did we hit our goal of watering 1.5k trees?",
-    'article-1__link': 'https://caseytrees.org/2021/08/urban-tree-summit-agenda-is-here/?utm_source=leaflet&utm_medium=email&utm_campaign=greencitiessummit',
-    'article-1__alt-text': 'a stylized gingko',
-    'article-1__image': 'https://caseytrees.org/wp-content/uploads/2021/07/uts-2021-email-1.png',
-    'article-1__heading': 'Urban Tree Summit Agenda is Here',
-    'article-1__description': 'Early bird pricing ends August 13',
+NVP_20210809 = {
+    'preheader': 'Coming Soon to Park Near You: DDOT’s Pop Up Arboreta',
+    'article-1__link': 'https://caseytrees.org/2021/08/ddots-pop-up-arboreta/?utm_source=leaflet&utm_medium=email&utm_campaign=citypartner',
+    'article-1__alt-text': 'a sign posted on an American Elm (ulmus americana) describing its sawtooth leaves',
+    'article-1__image': 'https://caseytrees.org/wp-content/uploads/2021/08/ddot-arboretum-email.png',
+    'article-1__heading': 'DDOT’s Pop Up Arboreta',
+    'article-1__description': 'And experience it for yourself during our Tree Walk with UFD',
     'banner-a__link': 'https://caseytrees.org/take-action/water/',
-    'banner-a__alt-text': 'Weekly Watering Alert: Optional',
+    'banner-a__alt-text': 'Weekly Watering Alert: Water!',
     'banner-a__image-browser': 'https://caseytrees.org/wp-content/uploads/2021/05/weekly-watering-alert_optional.jpg',
-    'banner-a__image-responsive': 'https://caseytrees.org/wp-content/uploads/2021/05/2021-Watering-Alerts_optional-mobile.png',
-    # 'banner-a__text-1': 'Weekly Watering Alert',
-    # 'banner-a__text-2': 'Water',
-    'article-2__link': 'https://caseytrees.org/2021/08/1500-raised-1500-trees-watered-1-soaked-casey-trees-employee/?utm_source=leaflet&utm_medium=email&utm_campaign=treecare',
-    'article-2__alt-text': 'watering 1500 trees!',
-    'article-2__image': 'https://caseytrees.org/wp-content/uploads/2021/08/1500-trees-email.png',
-    'article-2__heading': '$1,500 Raised, 1,500 Trees Watered, 1 Soaked Employee',
-    'article-2__description': 'We put out the call: if we raise $1,500 and water 1,500 trees in one day, we’ll water a Casey Trees employee. See what happened next.',
-    'article-3__link': 'https://caseytrees.org/2021/08/what-to-do-when-a-storm-rolls-through/?utm_source=leaflet&utm_medium=email&utm_campaign=treecare',
-    'article-3__alt-text': 'a huge broken branch from the storms',
-    'article-3__image': 'https://caseytrees.org/wp-content/uploads/2021/08/Pre-and-post-storm-resources-email.png',
-    'article-3__heading': "What To Do When a Storm Rolls Through",
-    'article-3__description': 'Resources for before and after',
+    'banner-a__image-responsive': 'https://caseytrees.org/wp-content/uploads/2021/05/weekly-watering-alert_optional-mobile.jpg',
+    'article-2__link': 'https://caseytrees.org/2021/08/continuing-education-credits-available-at-the-urban-tree-summit/?utm_source=leaflet&utm_medium=email&utm_campaign=greencitiessummit',
+    'article-2__alt-text': 'a stylized gingko and the casey trees and montgomery parks logos',
+    'article-2__image': 'https://caseytrees.org/wp-content/uploads/2021/07/uts-2021-email-1.png',
+    'article-2__heading': 'Continuing Education Credits available at the Urban Tree Summit',
+    'article-2__description': 'Grow your knowledge, keep your credentials, and have a great time in September',
+    'article-3__link': 'https://caseytrees.org/2021/08/trees-are-feeling-the-heat/?utm_source=leaflet&utm_medium=email&utm_campaign=treecare',
+    'article-3__alt-text': 'Dry leaves in the summer hear',
+    'article-3__image': 'https://caseytrees.org/wp-content/uploads/2021/08/heat-stress-email.png',
+    'article-3__heading': 'Trees are Feeling the Heat',
+    'article-3__description': 'Lack of water is not the only summertime woe for urban trees.',
     'banner-b__link': 'https://caseytrees.org/urban-tree-summit-2021/',
     'banner-b__alt-text': "Early Access Tickets: Montgomery Parks and Casey Trees Present the Urban Tree Summit",
-    'banner-b__image-browser': 'https://caseytrees.org/wp-content/uploads/2021/06/Leaflet-ad_uts-eb.png',
-    'banner-b__image-responsive': 'https://caseytrees.org/wp-content/uploads/2021/06/Leaflet-ad_uts-eb-mobile.png',
-    # 'banner-b__text-1': 'follow us on social', 
-    # 'banner-b__text-2': 'Social',
+    'banner-b__image-browser': 'https://caseytrees.org/wp-content/uploads/2021/08/Leaflet-ad_uts-eb-lastcall.png',
+    'banner-b__image-responsive': 'https://caseytrees.org/wp-content/uploads/2021/08/Leaflet-ad_uts-eb-lastcall-mobile.png',
 }
 
-NVP = NVP_20210726
+NVP = NVP_20210809
 #
 
 

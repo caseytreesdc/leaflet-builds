@@ -1906,6 +1906,7 @@ NVP = NVP_20210913
 #
 
 
+<<<<<<< HEAD
 NVP_20210913 = {
     'preheader': '',
     'article-1__link': 'https://caseytrees.org/2021/09/in-person-fall-events-are-back/?utm_source=leaflet&utm_medium=email&utm_campaign=programming',
@@ -1934,3 +1935,35 @@ NVP_20210913 = {
 }
 
 NVP = NVP_20210913
+=======
+NVP_20211004 = {
+    'preheader': 'plus, we are hiring',
+    'article-1__link': 'https://caseytrees.org/2021/10/get-to-know-dcs-urban-forestry-division/?utm_source=leaflet&utm_medium=email&utm_campaign=citypartner',
+    'article-1__alt-text': 'two urban foresters, one in denim, and the other in a jumpsuit working with a young tree',
+    'article-1__image': 'https://caseytrees.org/wp-content/uploads/2021/10/ufd-email.png',
+    'article-1__heading': 'Get to Know DC’s Urban Forestry Division',
+    'article-1__description': 'We’ve talked about and worked with them at length, but never gave folks an intimate who-what-where-when-why of our partner in crime',
+    'banner-a__link': 'https://caseytrees.org/guia-para-el-guardabosques-junior/',
+    'banner-a__alt-text': 'guias para el guardabosques junior',
+    'banner-a__image-browser': 'https://caseytrees.org/wp-content/uploads/2021/09/Leaflet-button-National-Hispanic-Heritage-Month_desktop.jpg',
+    'banner-a__image-responsive': 'https://caseytrees.org/wp-content/uploads/2021/09/Leaflet-button-National-Hispanic-Heritage-Month_mobile.jpg',
+    'article-2__link': 'https://caseytrees.org/2021/10/hiring-bookkeeper-and-more/?utm_source=leaflet&utm_medium=email&utm_campaign=staff',
+    'article-2__alt-text': 'casey trees staff',
+    'article-2__image': 'https://caseytrees.org/wp-content/uploads/2021/10/staff.png',
+    'article-2__heading': 'Hiring: Bookkeeper and more',
+    'article-2__description': 'Join in our mission to restore, enhance, and protect the tree canopy of our nation’s capital',
+    'article-3__link': 'https://caseytrees.org/2021/10/2021-weekly-watering-alert-recap/?utm_source=leaflet&utm_medium=email&utm_campaign=programming',
+    'article-3__alt-text': 'a volunteer team lead in a red vest and another volunteer watering a tree with a 10 gallon bucket',
+    'article-3__image': 'https://caseytrees.org/wp-content/uploads/2021/06/summer-care-email.png',
+    'article-3__heading': '2021 Weekly Watering Alert Recap',
+    'article-3__description': 'We received three times as much rain as normal during which month this summer?',
+    'banner-b__link': 'https://caseytrees.org/events/list/',
+    'banner-b__alt-text': "Join Us Outside, Casey Trees Events",
+    'banner-b__image-browser': 'https://caseytrees.org/wp-content/uploads/2021/10/Leaflet-button_join-us-desktop-scaled.jpg',
+    'banner-b__image-responsive': 'https://caseytrees.org/wp-content/uploads/2021/10/Leaflet-button_join-us-mobile-scaled.jpg',
+}
+
+NVP = NVP_20211004
+#
+
+>>>>>>> develop

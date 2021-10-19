@@ -1685,7 +1685,28 @@ https://caseytrees.org/2021/09/in-person-fall-events-are-back/?utm_source=leafle
 https://caseytrees.org/2021/09/make-fall-your-best-season-yet-with-casey-trees/?utm_source=leaflet&utm_medium=email&utm_campaign=riversmarthomes
 https://caseytrees.org/2021/09/celebrating-national-hispanic-heritage-month/?utm_source=leaflet&utm_medium=email&utm_campaign=staff
 
+<<<<<<< HEAD
 <! - - - - - - - - - -September 27, 2021 Leaflet - - - - - - - - - - - ->
 https://caseytrees.org/2021/09/casey-trees-headquarters-street-tree-tour/?utm_source=leaflet&utm_medium=email&utm_campaign=citypartner
 https://caseytrees.org/2021/09/urban-tree-summit-2021-recap-back-and-better-than-before/?utm_source=leaflet&utm_medium=email&utm_campaign=urbantreesummit
 https://caseytrees.org/2021/09/treewise-2021-summer-recap/?utm_source=leaflet&utm_medium=email&utm_campaign=treewise
+=======
+
+<! - - - - - - - - - -October 4, 2021 Leaflet - - - - - - - - - - - ->
+https://caseytrees.org/2021/10/get-to-know-dcs-urban-forestry-division/?utm_source=leaflet&utm_medium=email&utm_campaign=citypartner
+https://caseytrees.org/2021/10/hiring-bookkeeper-and-more/?utm_source=leaflet&utm_medium=email&utm_campaign=staff
+https://caseytrees.org/2021/10/2021-weekly-watering-alert-recap/?utm_source=leaflet&utm_medium=email&utm_campaign=programming
+
+
+<! - - - - - - - - - -October 12, 2021 Leaflet - - - - - - - - - - - ->
+https://caseytrees.org/2021/10/the-street-trees-of-iconic-dc-spots/?utm_source=leaflet&utm_medium=email&utm_campaign=programming
+https://caseytrees.org/2021/10/spots-still-available-at-our-fall-events/?utm_source=leaflet&utm_medium=email&utm_campaign=communitytreeplanting
+https://caseytrees.org/2021/10/dc-fall-foliage-map/?utm_source=leaflet&utm_medium=email&utm_campaign=riversmarthomes
+
+<! - - - - - - - - - -October 18, 2021 Leaflet - - - - - - - - - - - ->
+https://caseytrees.org/2021/10/street-tree-before-afters/?utm_source=leaflet&utm_medium=email&utm_campaign=citypartner
+https://caseytrees.org/2021/10/urban-forestry-fellowship-now-accepting-applications/?utm_source=leaflet&utm_medium=email&utm_campaign=gcascholarship
+https://caseytrees.org/2021/10/riparian-buffer-month/?utm_source=leaflet&utm_medium=email&utm_campaign=feeforservice
+
+
+>>>>>>> develop

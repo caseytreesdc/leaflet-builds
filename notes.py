@@ -1992,3 +1992,60 @@ NVP_20211018 = {
 }
 
 
+
+NVP_20211108 = {
+    'preheader': 'plus, witness trees to mark Veteran’s Day',
+    'article-1__link': 'https://caseytrees.org/2021/11/big-budget-wins-for-2022/?utm_source=leaflet&utm_medium=email&utm_campaign=advocacy',
+    'article-1__alt-text': 'cyclists going by fall trees on dc citybikes',
+    'article-1__image': 'https://caseytrees.org/wp-content/uploads/2021/11/budget-wins-email.png',
+    'article-1__heading': 'Big Budget Wins for 2022',
+    'article-1__description': 'There is so much helpful tree information on the internet, you simply need to know where to look',
+    'banner-a__link': 'https://caseytrees.org/plant/#plantitforward',
+    'banner-a__alt-text': 'Plant it Forward: Hire Casey Trees',
+    'banner-a__image-browser': 'https://caseytrees.org/wp-content/uploads/2021/10/Leaflet-button_plant-it-forward-desktop.png',
+    'banner-a__image-responsive': 'https://caseytrees.org/wp-content/uploads/2021/10/Leaflet-button_plant-it-forward-mobile.png',
+    'article-2__link': 'https://caseytrees.org/2021/11/ddot-maps-you-may-have-missed/?utm_source=leaflet&utm_medium=email&utm_campaign=citypartner',
+    'article-2__alt-text': "map of UFD's stree trees",
+    'article-2__image': 'https://caseytrees.org/wp-content/uploads/2021/11/ddot-maps-emails.png',
+    'article-2__heading': 'DDOT Maps You May Have Missed',
+    'article-2__description': 'There is so much helpful tree information on the internet, you simply need to know where to look',
+    'article-3__link': 'https://caseytrees.org/2021/11/five-witness-trees-for-veterans-day-3/?utm_source=leaflet&utm_medium=email&utm_campaign=nationalholiday',
+    'article-3__alt-text': 'a witness tree',
+    'article-3__image': 'https://caseytrees.org/wp-content/uploads/2020/11/witness-trees-email.png',
+    'article-3__heading': 'Five Witness Trees for Veteran’s Day',
+    'article-3__description': 'While they may look like ordinary trees, they have incredible stories to tell',
+    'banner-b__link': 'http://www.facebook.com/pages/Casey-Trees/58793928339',
+    'banner-b__alt-text': "follow us on facebook",
+    'banner-b__image-browser': 'https://caseytrees.org/wp-content/uploads/2021/01/Leaflet-ad_follow-us-on-social.png',
+    'banner-b__image-responsive': 'https://caseytrees.org/wp-content/uploads/2021/01/Leaflet-ad_follow-us-on-social-mobile.png',
+}
+
+NVP = NVP_20211108
+#
+
+NVP_20211115 = {
+    'preheader': "UFD's got a blank space baby and they'll plant a tree",
+    'article-1__link': 'https://caseytrees.org/2021/11/gis-day-mapping-spotlight/?utm_source=leaflet&utm_medium=email&utm_campaign=programming',
+    'article-1__alt-text': 'satellite image over DC. lots of trees!',
+    'article-1__image': 'https://caseytrees.org/wp-content/uploads/2021/11/gis-day-2021-email.png',
+    'article-1__heading': 'GIS Day: Mapping Spotlight',
+    'article-1__description': 'We started using GIS spatial mapping to create a digital record of our tree plantings. That was just the beginning!',
+    'banner-a__link': 'https://www.washingtonian.com/2021/11/12/hank-a-dc-cat-was-stuck-in-a-tree-for-five-days-heres-the-story-of-how-he-came-down/',
+    'banner-a__alt-text': 'Hank, a DC Cat, Was Stuck in a Tree for Five Days. Here’s the Story of How He Came Down.',
+    'banner-a__image-browser': 'https://caseytrees.org/wp-content/uploads/2021/11/Leaflet-button_delores-hank-mobile.png',
+    'banner-a__image-responsive': 'https://caseytrees.org/wp-content/uploads/2021/11/Leaflet-button_delores-hank-mobile.png',
+    'article-2__link': 'https://caseytrees.org/2021/11/advocacy-works-the-future-of-the-waterfront/?utm_source=leaflet&utm_medium=email&utm_campaign=advocacy',
+    'article-2__alt-text': "render of a stylized building at the waterfront",
+    'article-2__image': 'https://caseytrees.org/wp-content/uploads/2021/11/advocacy-wins-2021-email.png',
+    'article-2__heading': 'Advocacy Works: The Future Of The Waterfront',
+    'article-2__description': 'An advocacy update from our policy and land conservation team',
+    'article-3__link': 'https://caseytrees.org/2021/11/ddot-kicks-off-tree-planting-season/?utm_source=leaflet&utm_medium=email&utm_campaign=citypartner',
+    'article-3__alt-text': 'fall at sundown on a tree-lined street in the district',
+    'article-3__image': 'https://caseytrees.org/wp-content/uploads/2021/11/ddot-planting-2022-email.png',
+    'article-3__heading': "Tree Planting (DDOT's Version)",
+    'article-3__description': 'The Urban Forestry Division’s annual planting program begins every Fall and runs through March',
+    'banner-b__link': 'https://caseytrees.org/2021/11/the-human-forest-nexus-todays-natural-infrastructure-solutions-leading-to-tomorrows-climate-resiliency/',
+    'banner-b__alt-text': "Climate Crisis Conference: November 15 - 19",
+    'banner-b__image-browser': 'https://caseytrees.org/wp-content/uploads/2021/11/Leaflet-button_climate-crisis-conf-desktop.png',
+    'banner-b__image-responsive': 'https://caseytrees.org/wp-content/uploads/2021/11/Leaflet-button_climate-crisis-conf-mobile.png',
+}

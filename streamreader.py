@@ -1,34 +1,34 @@
 import sys
 
 
-NVP_20211108 = {
-    'preheader': 'plus, witness trees to mark Veteran’s Day',
-    'article-1__link': 'https://caseytrees.org/2021/11/big-budget-wins-for-2022/?utm_source=leaflet&utm_medium=email&utm_campaign=advocacy',
-    'article-1__alt-text': 'cyclists going by fall trees on dc citybikes',
-    'article-1__image': 'https://caseytrees.org/wp-content/uploads/2021/11/budget-wins-email.png',
-    'article-1__heading': 'Big Budget Wins for 2022',
-    'article-1__description': 'There is so much helpful tree information on the internet, you simply need to know where to look',
-    'banner-a__link': 'https://caseytrees.org/plant/#plantitforward',
-    'banner-a__alt-text': 'Plant it Forward: Hire Casey Trees',
-    'banner-a__image-browser': 'https://caseytrees.org/wp-content/uploads/2021/10/Leaflet-button_plant-it-forward-desktop.png',
-    'banner-a__image-responsive': 'https://caseytrees.org/wp-content/uploads/2021/10/Leaflet-button_plant-it-forward-mobile.png',
-    'article-2__link': 'https://caseytrees.org/2021/11/ddot-maps-you-may-have-missed/?utm_source=leaflet&utm_medium=email&utm_campaign=citypartner',
-    'article-2__alt-text': "map of UFD's stree trees",
-    'article-2__image': 'https://caseytrees.org/wp-content/uploads/2021/11/ddot-maps-emails.png',
-    'article-2__heading': 'DDOT Maps You May Have Missed',
-    'article-2__description': 'There is so much helpful tree information on the internet, you simply need to know where to look',
-    'article-3__link': 'https://caseytrees.org/2021/11/five-witness-trees-for-veterans-day-3/?utm_source=leaflet&utm_medium=email&utm_campaign=nationalholiday',
-    'article-3__alt-text': 'a witness tree',
-    'article-3__image': 'https://caseytrees.org/wp-content/uploads/2020/11/witness-trees-email.png',
-    'article-3__heading': 'Five Witness Trees for Veteran’s Day',
-    'article-3__description': 'While they may look like ordinary trees, they have incredible stories to tell',
+NVP_20211115 = {
+    'preheader': "and a homegrown (literally) Black Friday",
+    'article-1__link': 'https://caseytrees.org/2021/11/support-homegrown-change-this-year-give-to-casey-trees-for-givingtuesday/?utm_source=leaflet&utm_medium=email&utm_campaign=eoy',
+    'article-1__alt-text': 'under the tree canopy',
+    'article-1__image': 'https://caseytrees.org/wp-content/uploads/2021/04/tree-walk-2021-email.png',
+    'article-1__heading': 'Support Homegrown Change this Year. Give to Casey Trees for #GivingTuesday',
+    'article-1__description': 'Just as every tree planted makes a difference, every dollar donated on #GivingTuesday next week makes a difference. Make your contribution at caseytrees.org/give early or on Tuesday, November 30.',
+    'banner-a__link': 'https://caseytrees.org/education/urban-forestry-fellowship/',
+    'banner-a__alt-text': 'Urban Forestry Student Scholarship',
+    'banner-a__image-browser': 'https://caseytrees.org/wp-content/uploads/2020/11/Leaflet-ad_gca_v2.png',
+    'banner-a__image-responsive': 'https://caseytrees.org/wp-content/uploads/2020/11/Leaflet-ad_gca-mobile-2.png',
+    'article-2__link': 'https://caseytrees.org/2021/11/introducingthe-urban-forest-preservation-authority-amendment-act-of-2021/?utm_source=leaflet&utm_medium=email&utm_campaign=advocacy',
+    'article-2__alt-text': "a huge scarlet oak special tree",
+    'article-2__image': 'https://caseytrees.org/wp-content/uploads/2021/11/dcist-trees-email.png',
+    'article-2__heading': 'Introducing…the Urban Forest Preservation Authority Amendment Act Of 2021',
+    'article-2__description': 'We’re partnering with Councilmembers Cheh and Allen to strengthen protections for our biggest trees',
+    'article-3__link': 'https://caseytrees.org/2021/11/we-get-by-with-a-little-help-from-our-friends/?utm_source=leaflet&utm_medium=email&utm_campaign=citypartner',
+    'article-3__alt-text': 'a fall tree lined street leading to one of DCs many roundabouts',
+    'article-3__image': 'https://caseytrees.org/wp-content/uploads/2021/11/ufd-thankful-email.png',
+    'article-3__heading': "We Get By with a Little Help from Our Friends",
+    'article-3__description': 'This year, we’re especially thankful for our partner in urban forestry',
     'banner-b__link': 'http://www.facebook.com/pages/Casey-Trees/58793928339',
     'banner-b__alt-text': "follow us on facebook",
     'banner-b__image-browser': 'https://caseytrees.org/wp-content/uploads/2021/01/Leaflet-ad_follow-us-on-social.png',
     'banner-b__image-responsive': 'https://caseytrees.org/wp-content/uploads/2021/01/Leaflet-ad_follow-us-on-social-mobile.png',
 }
 
-NVP = NVP_20211108
+NVP = NVP_20211115
 #
 
 

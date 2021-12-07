@@ -1,34 +1,34 @@
 import sys
 
 
-NVP_20211129 = {
-    'preheader': "You give, they match. We’re trying to raise $5,000 for DC’s trees - will you help?",
-    'article-1__link': 'https://caseytrees.org/2021/11/tomorrow-your-chance-to-make-a-difference-for-dcs-trees/?utm_source=leaflet&utm_medium=email&utm_campaign=eoy',
-    'article-1__alt-text': 'shade trees with building peeking through',
-    'article-1__image': 'https://caseytrees.org/wp-content/uploads/2021/06/medium-shade-tree-email.png',
-    'article-1__heading': 'Tomorrow. Your Chance to Make a Difference for DC’s Trees.',
-    'article-1__description': 'You give, they match, DC’s trees win. #GivingTuesday is tomorrow!',
-    'banner-a__link': 'https://caseytrees.org/give',
-    'banner-a__alt-text': 'Give on giving tuesday',
-    'banner-a__image-browser': 'https://caseytrees.org/wp-content/uploads/2021/11/Giving-Tuesday_gt-email-leaf.png',
-    'banner-a__image-responsive': 'https://caseytrees.org/wp-content/uploads/2021/11/Giving-Tuesday_gt-email-leaf.png',
-    'article-2__link': 'https://caseytrees.org/2021/11/casey-trees-online-advocacy-portal/?utm_source=leaflet&utm_medium=email&utm_campaign=advocacy',
-    'article-2__alt-text': "a logo of a laptop and a loudspeaker",
-    'article-2__image': 'https://caseytrees.org/wp-content/uploads/2021/11/advocacy-portal_emal.png',
-    'article-2__heading': 'Casey Trees Online Advocacy Resources',
-    'article-2__description': 'Classes on everything you need to demystify DC government and speak for trees - in your own home on your own time',
-    'article-3__link': 'https://caseytrees.org/2021/11/from-casey-trees-to-the-urban-forestry-division/?utm_source=leaflet&utm_medium=email&utm_campaign=citypartner',
-    'article-3__alt-text': 'Maddy McPhee: Urban Forester Ward 1',
-    'article-3__image': 'https://caseytrees.org/wp-content/uploads/2021/11/maddy-ufd-email.png',
-    'article-3__heading': "We Love Working with Old Friends",
-    'article-3__description': 'One of the reasons we work so well with UFD? Their arborist is a former employee!',
-    'banner-b__link': 'http://www.facebook.com/pages/Casey-Trees/58793928339',
-    'banner-b__alt-text': "follow us on facebook",
-    'banner-b__image-browser': 'https://caseytrees.org/wp-content/uploads/2021/01/Leaflet-ad_follow-us-on-social.png',
-    'banner-b__image-responsive': 'https://caseytrees.org/wp-content/uploads/2021/01/Leaflet-ad_follow-us-on-social-mobile.png',
+NVP_2021206 = {
+    'preheader': "and a welcome to the newest DDOT Director",
+    'article-1__link': 'https://caseytrees.org/2021/12/its-the-little-things/?utm_source=leaflet&utm_medium=email&utm_campaign=eoy',
+    'article-1__alt-text': 'planting crew planting pines',
+    'article-1__image': 'https://caseytrees.org/wp-content/uploads/2021/12/little-things-leaflet-email.png',
+    'article-1__heading': 'It’s the Little Things',
+    'article-1__description': 'One small tree for a yard, one giant leap for urban kind',
+    'banner-a__link': 'https://connect.clickandpledge.com/w/Form/446220bb-4a7a-4225-8b33-39cd133877c1?trk=EOYEmail5&utm_source=listemail&utm_medium=email-5&utm_campaign=eoy2021',
+    'banner-a__alt-text': 'Support Casey Trees this giving season. Donate Now',
+    'banner-a__image-browser': 'https://caseytrees.org/wp-content/uploads/2021/12/Leaflet-button_give-desktop.png',
+    'banner-a__image-responsive': 'https://caseytrees.org/wp-content/uploads/2021/12/Leaflet-button_give-mobile.png',
+    'article-2__link': 'https://caseytrees.org/2021/12/congratulations-new-ddot-director-everett-lott/?utm_source=leaflet&utm_medium=email&utm_campaign=citypartner',
+    'article-2__alt-text': "new DDOT director Everett Lott",
+    'article-2__image': 'https://caseytrees.org/wp-content/uploads/2021/12/dott-dir-new-email.png',
+    'article-2__heading': 'Congratulations New DDOT Director Everett Lott',
+    'article-2__description': 'We are so excited to work with Director Lott and all DDOT partners to continue to grow, enhance, and protect DC’s tree canopy. ',
+    'article-3__link': 'https://caseytrees.org/2021/12/calling-all-urban-forestry-students-2/?utm_source=leaflet&utm_medium=email&utm_campaign=gcascholarship',
+    'article-3__alt-text': 'inspecting tree leaves',
+    'article-3__image': 'https://caseytrees.org/wp-content/uploads/2021/12/gca-final-2-email.png',
+    'article-3__heading': "Calling All Urban Forestry Students",
+    'article-3__description': 'Apply for our $7,500 fellowship or forward to a friend who would be interested!',
+    'banner-b__link': 'https://caseytrees.org/education/urban-forestry-fellowship/',
+    'banner-b__alt-text': 'Urban Forestry Student Scholarship',
+    'banner-b__image-browser': 'https://caseytrees.org/wp-content/uploads/2020/11/Leaflet-ad_gca_v2.png',
+    'banner-b__image-responsive': 'https://caseytrees.org/wp-content/uploads/2020/11/Leaflet-ad_gca-mobile-2.png',
 }
 
-NVP = NVP_20211129
+NVP = NVP_2021206
 #
 
 

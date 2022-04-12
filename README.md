@@ -1,7 +1,6 @@
+# This process has been updated to run within wordpress directly.
 # link-insert.py
-
 ## Installation
-
 Clone this repo.
 
 ## Generating a new HTML file with inserted links
